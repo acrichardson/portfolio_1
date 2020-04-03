@@ -1,0 +1,21 @@
+.banner {
+    display: flex;
+    background-image: url(../../assets/background.png);
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner-card{
+  color: white;
+  width: 70%;
+  /*margin-right: 300px;*/
+}
+
+.banner-text{
+  justify-content: center;
+  text-align: left;
+}
+

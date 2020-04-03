@@ -1,0 +1,14 @@
+.footer{
+  display: flex;
+  background-color: rgb(35,35,35);
+  padding: 11px;
+  justify-content: center;
+  align-items: center;
+  text-align: center
+}
+
+.icons{
+  text-decoration: none;
+  color: #1EDD90;
+  font-size: 25px;
+}

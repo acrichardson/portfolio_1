@@ -1,0 +1,28 @@
+.navbar-lewagon {
+  // justify-content: space-between;
+  background: white;
+}
+
+.navbar-about {
+  background: black;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-basis: 80%;
+  flex-grow: 0;
+  justify-content: space-between;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 40px;
+  justify-content: space-between;
+}
+
+.navbar-nav {
+  justify-content: space-between;
+}
+
+.nav-spread {
+  justify-content: space-around;
+  flex-basis: 100%;
+}

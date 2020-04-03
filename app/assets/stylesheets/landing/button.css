@@ -1,0 +1,23 @@
+.button{
+    padding: 15px 30px;
+    border-radius: 50px;
+    color: white;
+    background-color: #1EDD90;
+    /*margin: 200px 0px;*/
+    display: inline-block;
+    opacity: 0.8;
+}
+
+.button:hover {
+    padding: 15px 30px;
+    border-radius: 50px;
+    color: white;
+    background-color: #1EDD90;
+    /*margin: 200px 0px;*/
+    display: inline-block;
+    opacity: 1;
+}
+
+h1 {
+  margin: 0px;
+}

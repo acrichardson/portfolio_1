@@ -1,0 +1,59 @@
+<!-- <div class="dropdown dropdown-custom alwaysontop">
+  <button class="btn btn-secondary dropdown-toggle dropmenu menu" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Menu
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+    <button class="dropdown-item" type="button">
+    </button>
+    <button class="dropdown-item" type="button"><%= link_to "Home",  root_path  %></button>
+
+    </div>
+  </div>
+ -->
+<div class="navbar-expand-sm navbar-light navbar-lewagon">
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="nav-spread navbar-nav mr-auto">
+      <div class="nav-item active navbar-nav">
+        <%= link_to "Home", "/", class: "nav-link" %>
+      </div>
+      <div class="nav-item dropdown nav-link" >
+        <p class="dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Projects</p>
+        <div class="dropdown-menu dropdown-menu-right nav-item active" aria-labelledby="navbarDropdown">
+          <%= link_to "PackedRight", 'http://www.packedright.live', class: "dropdown-item", target: "_blank" %>
+          <%= link_to "RentArt", "https://rentart2020.herokuapp.com", class: "dropdown-item", target: "_blank" %>
+          <%= link_to "Cocktails App", 'http://www.packedright.live', class: "dropdown-item", target: "_blank" %>
+          <%= link_to "Landing page", landing_path, class: "dropdown-item", target: "_blank" %>
+        </div>
+      </div>
+<!--       <div class="nav-item">
+        <%= link_to "Projects", "/products/new", class: "nav-link" %>
+      </div> -->
+      <div class="nav-item">
+        <%= link_to "Github", "https://github.com/acrichardson", class: "nav-link", target: "_blank" %>
+      </div>
+      <div class="nav-item">
+        <%= link_to "About Me", about_me_path, class: "nav-link" %>
+      </div>
+    </div>
+  </div>
+</div>
+
+        <!-- <div class="dropdown-menu dropdown-menu-right nav-item active" aria-labelledby="navbarDropdown">
+          <%= link_to "PackedRight", url: 'https//:www.packedright.live', class: "dropdown-item" %>
+        </div>
+        <div class="dropdown-menu dropdown-menu-right nav-item active" aria-labelledby="navbarDropdown">
+          <%= link_to "RentArt", url: 'https//:www.packedright.live', class: "dropdown-item" %>
+        </div>
+        <div class="dropdown-menu dropdown-menu-right nav-item active" aria-labelledby="navbarDropdown">
+          <%= link_to "Cocktails App", url: 'https//:www.packedright.live', class: "dropdown-item" %>
+        </div>
+        <div class="dropdown-menu dropdown-menu-right nav-item active" aria-labelledby="navbarDropdown">
+          <%= link_to "Landing page", url: 'https//:www.packedright.live', class: "dropdown-item" %>
+        </div> -->

@@ -1,0 +1,21 @@
+.hiw {
+text-align: center
+}
+
+.hiw-container{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.hiw-container-card {
+  height: 275px;
+  width: 250px;
+  box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+.img_in_container{
+  object-fit: cover;
+  height: 100px;
+  margin: 20px 0px;
+}
