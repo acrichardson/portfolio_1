@@ -11223,3 +11223,780 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 2343ms (Views: 2329.9ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/about_me" for ::1 at 2020-04-09 18:17:03 +0200
+Started GET "/about_me" for ::1 at 2020-04-09 18:17:06 +0200
+Processing by PagesController#about_me as HTML
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.1ms)
+  Rendered shared/_navbar.html.erb (4.1ms)
+  Rendered pages/about_me.html.erb within layouts/application (396.8ms)
+  Rendered pages/about_me.html.erb within layouts/application (865.9ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6540ms (Views: 6374.6ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 6539ms (Views: 6092.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-04-09 18:31:08 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (5.6ms)
+  Rendered pages/about_me.html.erb within layouts/application (15.5ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 105ms (Views: 100.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-04-09 18:31:52 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.9ms)
+Started GET "/about_me" for ::1 at 2020-04-09 18:32:05 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.8ms)
+Started GET "/about_me" for ::1 at 2020-04-09 18:32:58 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.9ms)
+Started GET "/about_me" for ::1 at 2020-04-09 18:33:46 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (4.4ms)
+Started GET "/about_me" for ::1 at 2020-04-09 18:36:29 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (3.1ms)
+  Rendered pages/about_me.html.erb within layouts/application (1514795.2ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1514951ms (Views: 1514947.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-04-09 18:57:07 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (3.2ms)
+  Rendered pages/about_me.html.erb within layouts/application (4314215.7ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4314526ms (Views: 4314524.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-04-09 19:44:56 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered pages/about_me.html.erb within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/ashantirichardson/code/acrichardson/portfolio_1/app/views/pages/about_me.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting then or ';' or '\n'
+ if answer == "nothing" puts "ok, bye then" 
+                        ^~~~):
+  
+app/views/pages/about_me.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting then or ';' or '\n'
+Started GET "/about_me" for ::1 at 2020-04-09 19:44:56 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered pages/about_me.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/ashantirichardson/code/acrichardson/portfolio_1/app/views/pages/about_me.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting then or ';' or '\n'
+ if answer == "nothing" puts "ok, bye then" 
+                        ^~~~):
+  
+app/views/pages/about_me.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting then or ';' or '\n'
+Started GET "/about_me" for ::1 at 2020-04-09 19:44:57 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered pages/about_me.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/ashantirichardson/code/acrichardson/portfolio_1/app/views/pages/about_me.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting then or ';' or '\n'
+ if answer == "nothing" puts "ok, bye then" 
+                        ^~~~):
+  
+app/views/pages/about_me.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting then or ';' or '\n'
+Started GET "/about_me" for ::1 at 2020-04-09 19:44:57 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered pages/about_me.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/ashantirichardson/code/acrichardson/portfolio_1/app/views/pages/about_me.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting then or ';' or '\n'
+ if answer == "nothing" puts "ok, bye then" 
+                        ^~~~):
+  
+app/views/pages/about_me.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting then or ';' or '\n'
+Started GET "/about_me" for ::1 at 2020-04-09 19:44:57 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered pages/about_me.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/ashantirichardson/code/acrichardson/portfolio_1/app/views/pages/about_me.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting then or ';' or '\n'
+ if answer == "nothing" puts "ok, bye then" 
+                        ^~~~):
+  
+app/views/pages/about_me.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting then or ';' or '\n'
+Started GET "/about_me" for ::1 at 2020-04-09 19:44:57 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered pages/about_me.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/ashantirichardson/code/acrichardson/portfolio_1/app/views/pages/about_me.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting then or ';' or '\n'
+ if answer == "nothing" puts "ok, bye then" 
+                        ^~~~):
+  
+app/views/pages/about_me.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting then or ';' or '\n'
+Started GET "/about_me" for ::1 at 2020-04-09 19:44:57 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered pages/about_me.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/ashantirichardson/code/acrichardson/portfolio_1/app/views/pages/about_me.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting then or ';' or '\n'
+ if answer == "nothing" puts "ok, bye then" 
+                        ^~~~):
+  
+app/views/pages/about_me.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting then or ';' or '\n'
+Started GET "/about_me" for ::1 at 2020-04-09 19:44:58 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered pages/about_me.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/ashantirichardson/code/acrichardson/portfolio_1/app/views/pages/about_me.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting then or ';' or '\n'
+ if answer == "nothing" puts "ok, bye then" 
+                        ^~~~):
+  
+app/views/pages/about_me.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting then or ';' or '\n'
+Started GET "/about_me" for ::1 at 2020-04-09 19:44:58 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered pages/about_me.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/ashantirichardson/code/acrichardson/portfolio_1/app/views/pages/about_me.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting then or ';' or '\n'
+ if answer == "nothing" puts "ok, bye then" 
+                        ^~~~):
+  
+app/views/pages/about_me.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting then or ';' or '\n'
+Started GET "/" for ::1 at 2020-04-09 19:44:58 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered pages/home.html.erb within layouts/application (4.0ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 31ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-09 19:44:58 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered pages/home.html.erb within layouts/application (3.5ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 40ms (Views: 39.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-09 19:44:58 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered pages/home.html.erb within layouts/application (2.5ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 26ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-09 19:44:58 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.1ms)
+  Rendered pages/home.html.erb within layouts/application (3.5ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 28ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-09 19:44:58 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered pages/home.html.erb within layouts/application (2.7ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 27ms (Views: 26.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-09 19:44:58 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered pages/home.html.erb within layouts/application (2.5ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 27ms (Views: 26.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-09 19:44:58 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered pages/home.html.erb within layouts/application (2.8ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 40ms (Views: 38.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-09 19:44:58 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered pages/home.html.erb within layouts/application (2.5ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 27ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-09 19:44:58 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered pages/home.html.erb within layouts/application (2.8ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 28ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-09 19:44:58 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered pages/home.html.erb within layouts/application (2.7ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 28ms (Views: 26.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-09 19:44:58 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered pages/home.html.erb within layouts/application (2.5ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 27ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-09 19:44:58 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered pages/home.html.erb within layouts/application (2.7ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 27ms (Views: 26.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-09 19:44:58 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (14.2ms)
+  Rendered pages/home.html.erb within layouts/application (15.4ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 40ms (Views: 39.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-09 19:44:58 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered pages/home.html.erb within layouts/application (3.3ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 28ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-09 19:44:58 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered pages/home.html.erb within layouts/application (2.9ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 28ms (Views: 27.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-09 19:44:58 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered pages/home.html.erb within layouts/application (3.0ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 35ms (Views: 34.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-04-09 19:46:14 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (5.7ms)
+  Rendered pages/about_me.html.erb within layouts/application (4507249.8ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4507345ms (Views: 4507342.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-04-09 19:47:44 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.8ms)
+  Rendered pages/about_me.html.erb within layouts/application (4278774.1ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4278817ms (Views: 4278816.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-04-09 19:48:03 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.2ms)
+  Rendered pages/about_me.html.erb within layouts/application (1369591.8ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1369737ms (Views: 1369730.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-09 20:09:04 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (3.6ms)
+  Rendered pages/home.html.erb within layouts/application (7.1ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 46ms (Views: 42.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-09 20:09:04 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.5ms)
+  Rendered pages/home.html.erb within layouts/application (3.9ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 37ms (Views: 36.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-09 20:09:04 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (3.6ms)
+  Rendered pages/home.html.erb within layouts/application (5.0ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 37ms (Views: 36.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-04-09 20:09:04 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered pages/about_me.html.erb within layouts/application (5858826.4ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5858870ms (Views: 5858868.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-04-09 20:11:25 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.0ms)
+  Rendered pages/about_me.html.erb within layouts/application (1462445.4ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1462526ms (Views: 1462524.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-04-09 20:12:25 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (3.7ms)
+  Rendered pages/about_me.html.erb within layouts/application (1504403.3ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1504448ms (Views: 1504445.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-04-09 20:12:48 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.2ms)
+  Rendered pages/about_me.html.erb within layouts/application (1241814.4ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1241903ms (Views: 1241900.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-04-09 20:29:46 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (6.2ms)
+  Rendered pages/about_me.html.erb within layouts/application (9.6ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 136ms (Views: 131.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-04-09 20:29:46 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered pages/about_me.html.erb within layouts/application (2.9ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 29ms (Views: 27.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-04-09 20:29:46 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.8ms)
+  Rendered pages/about_me.html.erb within layouts/application (4.7ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 36ms (Views: 35.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-04-09 20:29:46 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.5ms)
+  Rendered pages/about_me.html.erb within layouts/application (4.2ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 32ms (Views: 30.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-04-09 20:29:46 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered pages/about_me.html.erb within layouts/application (2.7ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 33ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-04-09 20:29:46 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered pages/about_me.html.erb within layouts/application (2.7ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 44ms (Views: 43.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-04-09 20:29:46 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered pages/about_me.html.erb within layouts/application (2.8ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 29ms (Views: 27.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-04-09 20:29:46 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered pages/about_me.html.erb within layouts/application (2.5ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 28ms (Views: 26.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-04-09 20:29:46 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered pages/about_me.html.erb within layouts/application (2.9ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 31ms (Views: 30.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-04-09 20:29:46 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered pages/about_me.html.erb within layouts/application (2.8ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 29ms (Views: 28.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-04-09 20:29:46 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (4.6ms)
+  Rendered pages/about_me.html.erb within layouts/application (6.0ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 47ms (Views: 46.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-04-09 20:29:46 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered pages/about_me.html.erb within layouts/application (2.7ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 28ms (Views: 27.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-04-09 20:29:46 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.0ms)
+  Rendered pages/about_me.html.erb within layouts/application (3.7ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 30ms (Views: 29.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-04-09 20:29:46 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered pages/about_me.html.erb within layouts/application (2.6ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 28ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/landing" for ::1 at 2020-04-09 20:29:46 +0200
+  Rendered pages/about_me.html.erb within layouts/application (1153186.4ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1153233ms (Views: 1153231.2ms | ActiveRecord: 0.0ms)
+
+
+  Rendered pages/about_me.html.erb within layouts/application (1099137.9ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1099190ms (Views: 1099186.9ms | ActiveRecord: 0.0ms)
+
+
+  Rendered pages/about_me.html.erb within layouts/application (1092708.9ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1092737ms (Views: 1092736.5ms | ActiveRecord: 0.0ms)
+
+
+  Rendered pages/about_me.html.erb within layouts/application (5635045.0ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5635078ms (Views: 5635074.5ms | ActiveRecord: 0.0ms)
+
+
+Processing by LandingController#projectlanding as HTML
+  Rendering landing/projectlanding.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered landing/projectlanding.html.erb within layouts/application (3.6ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 30ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/landing" for ::1 at 2020-04-09 20:31:26 +0200
+Processing by LandingController#projectlanding as HTML
+  Rendering landing/projectlanding.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.1ms)
+  Rendered landing/projectlanding.html.erb within layouts/application (5.7ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 249ms (Views: 248.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/landing" for ::1 at 2020-04-09 20:31:30 +0200
+Processing by LandingController#projectlanding as HTML
+  Rendering landing/projectlanding.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (3.0ms)
+  Rendered landing/projectlanding.html.erb within layouts/application (5.1ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 44ms (Views: 42.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/css/style.css" for ::1 at 2020-04-09 20:31:30 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/css/style.css"):
+  
+actionpack (5.2.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+webpacker (5.0.1) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (5.2.4.1) lib/rails/engine.rb:524:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/css/style.css" for ::1 at 2020-04-09 20:31:30 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/css/style.css"):
+  
+actionpack (5.2.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+webpacker (5.0.1) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (5.2.4.1) lib/rails/engine.rb:524:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/about_me" for ::1 at 2020-04-09 20:31:51 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered pages/about_me.html.erb within layouts/application (3.2ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 35ms (Views: 32.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-04-09 20:32:36 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (7.4ms)
+Started GET "/about_me" for ::1 at 2020-04-09 20:32:38 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.8ms)
+Started GET "/about_me" for ::1 at 2020-04-09 21:27:13 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (7.8ms)
+Started GET "/about_me" for ::1 at 2020-04-10 13:50:00 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (6.5ms)
+Started GET "/" for ::1 at 2020-04-10 13:51:09 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (5.3ms)
+  Rendered pages/home.html.erb within layouts/application (11.8ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 103ms (Views: 97.7ms | ActiveRecord: 0.0ms)
+
+
+  Rendered pages/about_me.html.erb within layouts/application (63620287.6ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 63620413ms (Views: 63620406.9ms | ActiveRecord: 0.0ms)
+
+
+  Rendered pages/about_me.html.erb within layouts/application (63617836.3ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 63617870ms (Views: 63617869.0ms | ActiveRecord: 0.0ms)
+
+
+  Rendered pages/about_me.html.erb within layouts/application (60343705.2ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 60343752ms (Views: 60343748.4ms | ActiveRecord: 0.0ms)
+
+
+  Rendered pages/about_me.html.erb within layouts/application (1376578.6ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1376616ms (Views: 1376612.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-10 15:22:44 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.2ms)
+  Rendered pages/home.html.erb within layouts/application (6.3ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 3383ms (Views: 3380.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-10 15:35:52 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (3.7ms)
+  Rendered pages/home.html.erb within layouts/application (7.4ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2519ms (Views: 2516.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-10 15:36:16 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (6.4ms)
+  Rendered pages/home.html.erb within layouts/application (11.9ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2403ms (Views: 2396.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-10 19:49:26 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (17.7ms)
+  Rendered pages/home.html.erb within layouts/application (35.3ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6638ms (Views: 6632.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-04-12 18:54:42 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (8.2ms)
+Started GET "/" for ::1 at 2020-04-12 18:57:08 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (5.6ms)
+  Rendered pages/home.html.erb within layouts/application (12.6ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 141ms (Views: 138.3ms | ActiveRecord: 0.0ms)
+
+
+  Rendered pages/about_me.html.erb within layouts/application (152441.3ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 153141ms (Views: 153133.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-12 18:57:25 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (3.2ms)
+  Rendered pages/home.html.erb within layouts/application (6.4ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 59ms (Views: 58.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-12 19:10:10 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (3.8ms)
+  Rendered pages/home.html.erb within layouts/application (9.3ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 453ms (Views: 448.3ms | ActiveRecord: 0.0ms)
+
+

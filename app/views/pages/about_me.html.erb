@@ -1,8 +1,22 @@
 <%= render 'shared/navbar' %>
 
-<div class="about_background">
+<%= print "What would you like to know?" %>
+<% answer = gets.chomp %>
+<% if answer == "nothing" %>
+<%= print "ok, bye then" %>
+<% else %>
+<%= print "I don't get it" %>
+<% end %>
 
-</div>
+
+
+
+
+
+
+
+
+
 
 <h1 class="ml8">
   <span class="letters-container">

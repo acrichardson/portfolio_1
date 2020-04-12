@@ -9,16 +9,28 @@
 .img_home {
   height: 12vw;
   width: auto;
-  transition-property: height;
-  transition-duration: 5s;
-  // transition: height 200s;
+  transition-property: all;
+  transition-duration: 1s;
+  position: absolute;
+  top: 50%;
+  transform: translate(0px, -50%);
+}
+
+.img_home div {
+  height: 12vw;
+//   width: auto;
+//   transition-property: height;
+//   transition-duration: 5s;
+//   // transition: height 200s;
 }
 
 .img_home:hover {
-  height: 50vw;
+  height: 37vw;
   position: absolute;
   bottom: 0;
+  -webkit-animation-timing-function: cubic-bezier(0.42, 0, 0.23, 1.24);
   animation-timing-function: cubic-bezier(0.42, 0, 0.23, 1.24);
+  z-index: 10;
 }
 
 .img-cont-home {
