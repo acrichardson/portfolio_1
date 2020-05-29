@@ -1,12 +1,42 @@
 <%= render 'shared/navbar' %>
 
-<%= print "What would you like to know?" %>
-<% answer = gets.chomp %>
-<% if answer == "nothing" %>
-<%= print "ok, bye then" %>
-<% else %>
-<%= print "I don't get it" %>
-<% end %>
+<div class="container d-flex">
+
+  <div class="about_text">
+
+    <div class="centered container">
+      <div class="m-3">
+
+        <h1>About me</h1>
+
+        <p>I am a junior web developer based in Amsterdam.</p>
+        <p>I enjoy problem solving and creating helpful and enjoyable things from scratch.</p>
+        <p>My coding adventure started about a year ago. From that time I have immersed myself in code as much as possible. I have finished the 9 week Le Wagon fullstack web development course and have been coding everyday since.</p>
+        <p>I'm looking for a possibility to learn more about coding. I love building reactive web applications and doing anything that can deepen my knowledge about code.</p>
+
+        Stack:
+        Ruby
+        HTML
+        JavaScript
+        SQL
+        React
+      </div>
+    </div>
+
+  </div>
+
+<div class="halfscreen">
+
+  <div class="ava text-center">
+    <!-- <div class="image"> -->
+
+      <img src="../../assets/ashanti.png" alt="">
+
+    <!-- </div> -->
+  </div>
+</div>
+
+</div>
 
 
 
@@ -17,6 +47,12 @@
 
 
 
+
+
+
+
+
+<!--
 
 <h1 class="ml8">
   <span class="letters-container">
@@ -78,4 +114,4 @@ anime({
   easing: "linear",
   loop: true
 });
-</script>
+</script> -->

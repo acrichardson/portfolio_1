@@ -1,0 +1,24 @@
+.about_text{
+  width: 40vw;
+}
+
+.ava img{
+  width: 20vw;
+  height: 20vw;
+  object-fit: cover;
+  border-radius: 50%;
+  transition: 2s;
+  margin-top: 10vh;
+}
+
+.ava img:hover {
+    width: 40vw;
+    height: 40vw;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 1vh;
+  }
+
+.halfscreen {
+  width: 50vw;
+}
