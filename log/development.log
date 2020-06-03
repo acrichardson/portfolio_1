@@ -13148,3 +13148,486 @@ Processing by PagesController#about_me as HTML
 Completed 200 OK in 684ms (Views: 327.5ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2020-06-03 10:28:43 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.4ms)
+  Rendered pages/home.html.erb within layouts/application (6.9ms)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 2f901c39ce5977061c3b
+Version: webpack 4.43.0
+Time: 112ms
+Built at: 06/03/2020 10:28:49 AM
+        Asset      Size  Chunks             Chunk Names
+manifest.json  23 bytes          [emitted]  
+
+ERROR in Entry module not found: Error: Can't resolve 'babel-loader' in '/Users/ashantirichardson/code/acrichardson/portfolio_1'
+
+
+
+[1m[31mInsufficient number of arguments or no entry found.
+[1m[31mAlternatively, run 'webpack(-cli) --help' for usage info.[39m[22m
+
+
+Completed 500 Internal Server Error in 5989ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /Users/ashantirichardson/code/acrichardson/portfolio_1/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+  "entrypoints": {
+  }
+}
+):
+    16: </div>
+    17:     <%= javascript_include_tag 'application' %>
+    18: 
+    19:     <%= javascript_pack_tag 'application' %>
+    20:   </body>
+    21: </html>
+  
+app/views/layouts/application.html.erb:19:in `_app_views_layouts_application_html_erb___4249686150846891064_70274193731920'
+Started GET "/" for ::1 at 2020-06-03 10:36:17 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (5.1ms)
+  Rendered pages/home.html.erb within layouts/application (9.7ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 500 Internal Server Error in 208ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /Users/ashantirichardson/code/acrichardson/portfolio_1/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+  "entrypoints": {
+  }
+}
+):
+    16: </div>
+    17:     <%= javascript_include_tag 'application' %>
+    18: 
+    19:     <%= javascript_pack_tag 'application' %>
+    20:   </body>
+    21: </html>
+  
+app/views/layouts/application.html.erb:19:in `_app_views_layouts_application_html_erb___882657487719404231_70158313755180'
+Started GET "/" for ::1 at 2020-06-03 10:41:12 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (3.8ms)
+  Rendered pages/home.html.erb within layouts/application (9.5ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 500 Internal Server Error in 263ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /Users/ashantirichardson/code/acrichardson/portfolio_1/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+  "entrypoints": {
+  }
+}
+):
+    16: </div>
+    17:     <%= javascript_include_tag 'application' %>
+    18: 
+    19:     <%= javascript_pack_tag 'application' %>
+    20:   </body>
+    21: </html>
+  
+app/views/layouts/application.html.erb:19:in `_app_views_layouts_application_html_erb___2431225374759491999_70209559775440'
+Started GET "/" for ::1 at 2020-06-03 11:02:53 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (3.3ms)
+  Rendered pages/home.html.erb within layouts/application (8.2ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 500 Internal Server Error in 336ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /Users/ashantirichardson/code/acrichardson/portfolio_1/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+  "entrypoints": {
+  }
+}
+):
+    16: </div>
+    17:     <%= javascript_include_tag 'application' %>
+    18: 
+    19:     <%= javascript_pack_tag 'application' %>
+    20:   </body>
+    21: </html>
+  
+app/views/layouts/application.html.erb:19:in `_app_views_layouts_application_html_erb___90979551293133821_70160306955200'
+Started GET "/" for ::1 at 2020-06-03 13:33:40 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.1ms)
+  Rendered pages/home.html.erb within layouts/application (5.3ms)
+Completed 500 Internal Server Error in 1138ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (CssSyntaxError: /Users/ashantirichardson/code/acrichardson/portfolio_1/app/assets/stylesheets/application.css:1:1: Unknown word
+
+> 1 | // Graphical variables
+    | ^
+  2 | @import "config/fonts";
+  3 | @import "config/colors";
+):
+     6:     <title>TODO</title>
+     7:     <%= csrf_meta_tags %>
+     8:     <%= action_cable_meta_tag %>
+     9:     <%= stylesheet_link_tag 'application', media: 'all' %>
+    10:     <link href="https://fonts.googleapis.com/css?family=Codystar&display=swap" rel="stylesheet">
+    11:     <%#= stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
+    12:   </head>
+  
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb___2653934404757849863_70320738067200'
+Started GET "/" for ::1 at 2020-06-03 13:34:37 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.4ms)
+  Rendered pages/home.html.erb within layouts/application (4.8ms)
+Completed 500 Internal Server Error in 533ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (CssSyntaxError: /Users/ashantirichardson/code/acrichardson/portfolio_1/app/assets/stylesheets/application.css:1:1: Unknown word
+
+> 1 | // Graphical variables
+    | ^
+  2 | @import "config/fonts";
+  3 | @import "config/colors";
+):
+     6:     <title>TODO</title>
+     7:     <%= csrf_meta_tags %>
+     8:     <%= action_cable_meta_tag %>
+     9:     <%= stylesheet_link_tag 'application', media: 'all' %>
+    10:     <link href="https://fonts.googleapis.com/css?family=Codystar&display=swap" rel="stylesheet">
+    11:     <%#= stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
+    12:   </head>
+  
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb___2653934404757849863_70320742610600'
+Started GET "/" for ::1 at 2020-06-03 13:34:52 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered pages/home.html.erb within layouts/application (3.3ms)
+Completed 500 Internal Server Error in 1014ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (CssSyntaxError: /Users/ashantirichardson/code/acrichardson/portfolio_1/app/assets/stylesheets/application.css:5:1: Unknown word
+
+  3 | @import "config/bootstrap_variables";
+  4 | 
+> 5 | // External libraries
+    | ^
+  6 | @import "bootstrap/scss/bootstrap";
+  7 | @import "font-awesome-sprockets";
+):
+     6:     <title>TODO</title>
+     7:     <%= csrf_meta_tags %>
+     8:     <%= action_cable_meta_tag %>
+     9:     <%= stylesheet_link_tag 'application', media: 'all' %>
+    10:     <link href="https://fonts.googleapis.com/css?family=Codystar&display=swap" rel="stylesheet">
+    11:     <%#= stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
+    12:   </head>
+  
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb___2653934404757849863_70320782447840'
+Started GET "/" for ::1 at 2020-06-03 13:36:14 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.1ms)
+  Rendered pages/home.html.erb within layouts/application (4.9ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 500 Internal Server Error in 824ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /Users/ashantirichardson/code/acrichardson/portfolio_1/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+  "entrypoints": {
+  }
+}
+):
+    16: </div>
+    17:     <%= javascript_include_tag 'application' %>
+    18: 
+    19:     <%= javascript_pack_tag 'application' %>
+    20:   </body>
+    21: </html>
+  
+app/views/layouts/application.html.erb:19:in `_app_views_layouts_application_html_erb___2653934404757849863_70320782379400'
+Started GET "/" for ::1 at 2020-06-03 13:37:39 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered pages/home.html.erb within layouts/application (3.4ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /Users/ashantirichardson/code/acrichardson/portfolio_1/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+  "entrypoints": {
+  }
+}
+):
+    16: </div>
+    17:     <%= javascript_include_tag 'application' %>
+    18: 
+    19:     <%= javascript_pack_tag 'application' %>
+    20:   </body>
+    21: </html>
+  
+app/views/layouts/application.html.erb:19:in `_app_views_layouts_application_html_erb___2653934404757849863_70320782312880'
+Started GET "/" for ::1 at 2020-06-03 13:37:47 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered pages/home.html.erb within layouts/application (3.2ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /Users/ashantirichardson/code/acrichardson/portfolio_1/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+  "entrypoints": {
+  }
+}
+):
+    16: </div>
+    17:     <%= javascript_include_tag 'application' %>
+    18: 
+    19:     <%= javascript_pack_tag 'application' %>
+    20:   </body>
+    21: </html>
+  
+app/views/layouts/application.html.erb:19:in `_app_views_layouts_application_html_erb___2653934404757849863_70320738419660'
+Started GET "/" for ::1 at 2020-06-03 13:48:19 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.4ms)
+  Rendered pages/home.html.erb within layouts/application (7.8ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 500 Internal Server Error in 124ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /Users/ashantirichardson/code/acrichardson/portfolio_1/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+  "entrypoints": {
+  }
+}
+):
+    16: </div>
+    17:     <%= javascript_include_tag 'application' %>
+    18: 
+    19:     <%= javascript_pack_tag 'application' %>
+    20:   </body>
+    21: </html>
+  
+app/views/layouts/application.html.erb:19:in `_app_views_layouts_application_html_erb___2697951589271485183_70234688112460'
+Started GET "/" for ::1 at 2020-06-03 13:48:21 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered pages/home.html.erb within layouts/application (2.8ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /Users/ashantirichardson/code/acrichardson/portfolio_1/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+  "entrypoints": {
+  }
+}
+):
+    16: </div>
+    17:     <%= javascript_include_tag 'application' %>
+    18: 
+    19:     <%= javascript_pack_tag 'application' %>
+    20:   </body>
+    21: </html>
+  
+app/views/layouts/application.html.erb:19:in `_app_views_layouts_application_html_erb___2697951589271485183_70234687622440'
+Started GET "/about_me" for ::1 at 2020-06-03 14:16:42 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.3ms)
+  Rendered pages/about_me.html.erb within layouts/application (6.5ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 500 Internal Server Error in 122ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /Users/ashantirichardson/code/acrichardson/portfolio_1/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+  "entrypoints": {
+  }
+}
+):
+    16: </div>
+    17:     <%= javascript_include_tag 'application' %>
+    18: 
+    19:     <%= javascript_pack_tag 'application' %>
+    20:   </body>
+    21: </html>
+  
+app/views/layouts/application.html.erb:19:in `_app_views_layouts_application_html_erb___4104595425008724985_70202569825140'
+Started GET "/about_me" for ::1 at 2020-06-03 14:43:27 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.1ms)
+  Rendered pages/about_me.html.erb within layouts/application (6.8ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 500 Internal Server Error in 145ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /Users/ashantirichardson/code/acrichardson/portfolio_1/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+  "entrypoints": {
+  }
+}
+):
+    16: </div>
+    17:     <%= javascript_include_tag 'application' %>
+    18: 
+    19:     <%= javascript_pack_tag 'application' %>
+    20:   </body>
+    21: </html>
+  
+app/views/layouts/application.html.erb:19:in `_app_views_layouts_application_html_erb__2348217398309496667_70169564306100'
+Started GET "/" for ::1 at 2020-06-03 14:44:44 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered pages/home.html.erb within layouts/application (3.5ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /Users/ashantirichardson/code/acrichardson/portfolio_1/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+  "entrypoints": {
+  }
+}
+):
+    16: </div>
+    17:     <%= javascript_include_tag 'application' %>
+    18: 
+    19:     <%= javascript_pack_tag 'application' %>
+    20:   </body>
+    21: </html>
+  
+app/views/layouts/application.html.erb:19:in `_app_views_layouts_application_html_erb__2348217398309496667_70169554389880'
+Started GET "/about_me" for ::1 at 2020-06-03 14:55:30 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.3ms)
+  Rendered pages/about_me.html.erb within layouts/application (5.9ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 500 Internal Server Error in 126ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /Users/ashantirichardson/code/acrichardson/portfolio_1/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+  "entrypoints": {
+  }
+}
+):
+    16: </div>
+    17:     <%= javascript_include_tag 'application' %>
+    18: 
+    19:     <%= javascript_pack_tag 'application' %>
+    20:   </body>
+    21: </html>
+  
+app/views/layouts/application.html.erb:19:in `_app_views_layouts_application_html_erb___2934921261156274036_70128727001460'
