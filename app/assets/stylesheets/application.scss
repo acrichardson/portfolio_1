@@ -1,3 +1,5 @@
+@import "bootstrap-sprockets";
+
 // Graphical variables
 @import "config/fonts";
 @import "config/colors";
@@ -13,3 +15,4 @@
 @import "pages/index";
 @import "about_me/about_text";
 @import "components/foot";
+@import "pages/contact";

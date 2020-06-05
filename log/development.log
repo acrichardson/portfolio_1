@@ -14442,3 +14442,851 @@ Processing by PagesController#about_me as HTML
 Completed 200 OK in 176ms (Views: 172.9ms | ActiveRecord: 0.0ms)
 
 
+  [1m[35m (7.0ms)[0m  [1m[35mCREATE DATABASE "portfolio_1_development" ENCODING = 'unicode'[0m
+  ↳ bin/rake:9
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE DATABASE "portfolio_1_test" ENCODING = 'unicode'[0m
+  ↳ bin/rake:9
+Started GET "/about_me" for ::1 at 2020-06-05 16:41:45 +0200
+Started GET "/about_me" for ::1 at 2020-06-05 16:41:45 +0200
+Processing by PagesController#about_me as HTML
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (713.8ms)
+  Rendered pages/about_me.html.erb within layouts/application (790.2ms)
+  Rendered shared/_navbar.html.erb (850.8ms)
+Completed 500 Internal Server Error in 873ms (ActiveRecord: 0.0ms)
+
+
+  
+  Rendered pages/about_me.html.erb within layouts/application (857.1ms)
+ActionView::Template::Error (undefined local variable or method `contact_contact_path' for #<#<Class:0x00007f837abd6a28>:0x00007f837abd45c0>
+Did you mean?  contact_path):
+Completed 500 Internal Server Error in 875ms (ActiveRecord: 0.0ms)
+
+
+  
+    42:         <%= link_to "About Me", about_me_path, class: "nav-link" %>
+    43:       </div>
+    44:       <div class="nav-item">
+    45:         <%= link_to "Contact", contact_contact_path, class: "nav-link" %>
+    46:       </div>
+    47:     </div>
+    48:   </div>
+ActionView::Template::Error (undefined local variable or method `contact_contact_path' for #<#<Class:0x00007f837abd6a28>:0x00007f837b3686d8>
+Did you mean?  contact_path):
+  
+    42:         <%= link_to "About Me", about_me_path, class: "nav-link" %>
+    43:       </div>
+    44:       <div class="nav-item">
+    45:         <%= link_to "Contact", contact_contact_path, class: "nav-link" %>
+    46:       </div>
+    47:     </div>
+    48:   </div>
+app/views/shared/_navbar.html.erb:45:in `_app_views_shared__navbar_html_erb__4304813214358218132_70101342338700'
+app/views/pages/about_me.html.erb:1:in `_app_views_pages_about_me_html_erb___4191089232100651326_70101338340260'
+  
+app/views/shared/_navbar.html.erb:45:in `_app_views_shared__navbar_html_erb__4304813214358218132_70101342338700'
+app/views/pages/about_me.html.erb:1:in `_app_views_pages_about_me_html_erb___4191089232100651326_70101338340260'
+Started GET "/about_me" for ::1 at 2020-06-05 16:43:07 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (5.3ms)
+  Rendered shared/_foot.html.erb (1.2ms)
+  Rendered pages/about_me.html.erb within layouts/application (12.2ms)
+Completed 500 Internal Server Error in 2221ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Error: Incompatible units: 'px' and 'rem'.
+        on line 214:35 of ../../../.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_variables.scss
+        from line 8:9 of ../../../.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/stylesheets/_bootstrap.scss
+        from line 2:9 of app/assets/stylesheets/pages/_contact.scss
+        from line 16:9 of app/assets/stylesheets/application.scss
+>> $input-height-base:              ($line-height-computed + ($padding-base-ver
+   ----------------------------------^
+):
+     6:     <title>TODO</title>
+     7:     <%= csrf_meta_tags %>
+     8:     <%= action_cable_meta_tag %>
+     9:     <%= stylesheet_link_tag 'application', media: 'all' %>
+    10:     <link href="https://fonts.googleapis.com/css?family=Codystar&display=swap" rel="stylesheet">
+    11:     <%#= stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
+    12:   </head>
+  
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__2323652587482086766_70101386704120'
+Started GET "/about_me" for ::1 at 2020-06-05 16:49:49 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (10.8ms)
+  Rendered shared/_foot.html.erb (1.6ms)
+  Rendered pages/about_me.html.erb within layouts/application (19.3ms)
+Completed 500 Internal Server Error in 805ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Error: Incompatible units: 'px' and 'rem'.
+        on line 214:35 of ../../../.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_variables.scss
+        from line 8:9 of ../../../.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/stylesheets/_bootstrap.scss
+        from line 2:9 of app/assets/stylesheets/pages/_contact.scss
+        from line 16:9 of app/assets/stylesheets/application.scss
+>> $input-height-base:              ($line-height-computed + ($padding-base-ver
+   ----------------------------------^
+):
+     6:     <title>TODO</title>
+     7:     <%= csrf_meta_tags %>
+     8:     <%= action_cable_meta_tag %>
+     9:     <%= stylesheet_link_tag 'application', media: 'all' %>
+    10:     <link href="https://fonts.googleapis.com/css?family=Codystar&display=swap" rel="stylesheet">
+    11:     <%#= stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
+    12:   </head>
+  
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__2323652587482086766_70101338373040'
+Started GET "/about_me" for ::1 at 2020-06-05 16:50:15 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_foot.html.erb (0.3ms)
+  Rendered pages/about_me.html.erb within layouts/application (4.9ms)
+Completed 500 Internal Server Error in 582ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Error: Incompatible units: 'px' and 'rem'.
+        on line 214:35 of ../../../.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_variables.scss
+        from line 8:9 of ../../../.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/stylesheets/_bootstrap.scss
+        from line 2:9 of app/assets/stylesheets/pages/_contact.scss
+        from line 16:9 of app/assets/stylesheets/application.scss
+>> $input-height-base:              ($line-height-computed + ($padding-base-ver
+   ----------------------------------^
+):
+     6:     <title>TODO</title>
+     7:     <%= csrf_meta_tags %>
+     8:     <%= action_cable_meta_tag %>
+     9:     <%= stylesheet_link_tag 'application', media: 'all' %>
+    10:     <link href="https://fonts.googleapis.com/css?family=Codystar&display=swap" rel="stylesheet">
+    11:     <%#= stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
+    12:   </head>
+  
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__2323652587482086766_70101342142900'
+Started GET "/" for ::1 at 2020-06-05 16:51:16 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.9ms)
+  Rendered shared/_foot.html.erb (1.4ms)
+  Rendered pages/home.html.erb within layouts/application (7.5ms)
+Completed 500 Internal Server Error in 617ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Error: Incompatible units: 'px' and 'rem'.
+        on line 214:35 of ../../../.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_variables.scss
+        from line 8:9 of ../../../.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/stylesheets/_bootstrap.scss
+        from line 2:9 of app/assets/stylesheets/pages/_contact.scss
+        from line 16:9 of app/assets/stylesheets/application.scss
+>> $input-height-base:              ($line-height-computed + ($padding-base-ver
+   ----------------------------------^
+):
+     6:     <title>TODO</title>
+     7:     <%= csrf_meta_tags %>
+     8:     <%= action_cable_meta_tag %>
+     9:     <%= stylesheet_link_tag 'application', media: 'all' %>
+    10:     <link href="https://fonts.googleapis.com/css?family=Codystar&display=swap" rel="stylesheet">
+    11:     <%#= stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
+    12:   </head>
+  
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__2323652587482086766_70101352373740'
+Started GET "/" for ::1 at 2020-06-05 16:53:37 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.9ms)
+  Rendered shared/_foot.html.erb (0.6ms)
+  Rendered pages/home.html.erb within layouts/application (6.6ms)
+Completed 500 Internal Server Error in 709ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Error: Incompatible units: 'px' and 'rem'.
+        on line 214:35 of ../../../.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_variables.scss
+        from line 8:9 of ../../../.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/stylesheets/_bootstrap.scss
+        from line 18:9 of app/assets/stylesheets/application.scss
+>> $input-height-base:              ($line-height-computed + ($padding-base-ver
+   ----------------------------------^
+):
+     6:     <title>TODO</title>
+     7:     <%= csrf_meta_tags %>
+     8:     <%= action_cable_meta_tag %>
+     9:     <%= stylesheet_link_tag 'application', media: 'all' %>
+    10:     <link href="https://fonts.googleapis.com/css?family=Codystar&display=swap" rel="stylesheet">
+    11:     <%#= stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
+    12:   </head>
+  
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__2323652587482086766_70101341996000'
+Started GET "/" for ::1 at 2020-06-05 16:53:40 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_foot.html.erb (0.4ms)
+  Rendered pages/home.html.erb within layouts/application (4.3ms)
+Completed 500 Internal Server Error in 498ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Error: Incompatible units: 'px' and 'rem'.
+        on line 214:35 of ../../../.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_variables.scss
+        from line 8:9 of ../../../.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/stylesheets/_bootstrap.scss
+        from line 18:9 of app/assets/stylesheets/application.scss
+>> $input-height-base:              ($line-height-computed + ($padding-base-ver
+   ----------------------------------^
+):
+     6:     <title>TODO</title>
+     7:     <%= csrf_meta_tags %>
+     8:     <%= action_cable_meta_tag %>
+     9:     <%= stylesheet_link_tag 'application', media: 'all' %>
+    10:     <link href="https://fonts.googleapis.com/css?family=Codystar&display=swap" rel="stylesheet">
+    11:     <%#= stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
+    12:   </head>
+  
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__2323652587482086766_70101352844580'
+Started GET "/" for ::1 at 2020-06-05 16:54:11 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_foot.html.erb (0.4ms)
+  Rendered pages/home.html.erb within layouts/application (5.7ms)
+Completed 500 Internal Server Error in 384ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Error: Incompatible units: 'px' and 'rem'.
+        on line 214:35 of ../../../.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_variables.scss
+        from line 8:9 of ../../../.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/stylesheets/_bootstrap.scss
+        from line 8:9 of app/assets/stylesheets/application.scss
+>> $input-height-base:              ($line-height-computed + ($padding-base-ver
+   ----------------------------------^
+):
+     6:     <title>TODO</title>
+     7:     <%= csrf_meta_tags %>
+     8:     <%= action_cable_meta_tag %>
+     9:     <%= stylesheet_link_tag 'application', media: 'all' %>
+    10:     <link href="https://fonts.googleapis.com/css?family=Codystar&display=swap" rel="stylesheet">
+    11:     <%#= stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
+    12:   </head>
+  
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__2323652587482086766_70101387580680'
+Started GET "/" for ::1 at 2020-06-05 16:54:23 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_foot.html.erb (0.4ms)
+  Rendered pages/home.html.erb within layouts/application (5.2ms)
+Completed 500 Internal Server Error in 3039ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'turbolinks' with type 'application/javascript'
+Checked in these paths: 
+  /Users/ashantirichardson/code/acrichardson/portfolio_1/app/assets/config
+  /Users/ashantirichardson/code/acrichardson/portfolio_1/app/assets/images
+  /Users/ashantirichardson/code/acrichardson/portfolio_1/app/assets/javascripts
+  /Users/ashantirichardson/code/acrichardson/portfolio_1/app/assets/stylesheets
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/actioncable-5.2.4.1/lib/assets/compiled
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/activestorage-5.2.4.1/app/assets/javascripts
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/actionview-5.2.4.1/lib/assets/compiled
+  /Users/ashantirichardson/code/acrichardson/portfolio_1/node_modules
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/font-awesome-sass-5.12.0/assets/stylesheets
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/font-awesome-sass-5.12.0/assets/fonts
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/stylesheets
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/javascripts
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/fonts
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/images):
+Started GET "/" for ::1 at 2020-06-05 16:54:29 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.9ms)
+  Rendered shared/_foot.html.erb (0.4ms)
+  Rendered pages/home.html.erb within layouts/application (4.5ms)
+Completed 500 Internal Server Error in 143ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'turbolinks' with type 'application/javascript'
+Checked in these paths: 
+  /Users/ashantirichardson/code/acrichardson/portfolio_1/app/assets/config
+  /Users/ashantirichardson/code/acrichardson/portfolio_1/app/assets/images
+  /Users/ashantirichardson/code/acrichardson/portfolio_1/app/assets/javascripts
+  /Users/ashantirichardson/code/acrichardson/portfolio_1/app/assets/stylesheets
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/actioncable-5.2.4.1/lib/assets/compiled
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/activestorage-5.2.4.1/app/assets/javascripts
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/actionview-5.2.4.1/lib/assets/compiled
+  /Users/ashantirichardson/code/acrichardson/portfolio_1/node_modules
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/font-awesome-sass-5.12.0/assets/stylesheets
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/font-awesome-sass-5.12.0/assets/fonts
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/stylesheets
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/javascripts
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/fonts
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/images):
+Started GET "/" for ::1 at 2020-06-05 16:54:46 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_foot.html.erb (0.3ms)
+  Rendered pages/home.html.erb within layouts/application (3.6ms)
+Completed 500 Internal Server Error in 512ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Error: Incompatible units: 'rem' and 'px'.
+        on line 177:12 of node_modules/bootstrap/scss/_modal.scss
+        from line 38:9 of node_modules/bootstrap/scss/bootstrap.scss
+        from line 10:9 of app/assets/stylesheets/application.scss
+>>   padding: $modal-inner-padding - $modal-footer-margin-between / 2;
+
+   -----------^
+):
+     6:     <title>TODO</title>
+     7:     <%= csrf_meta_tags %>
+     8:     <%= action_cable_meta_tag %>
+     9:     <%= stylesheet_link_tag 'application', media: 'all' %>
+    10:     <link href="https://fonts.googleapis.com/css?family=Codystar&display=swap" rel="stylesheet">
+    11:     <%#= stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
+    12:   </head>
+  
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__2323652587482086766_70101351391420'
+Started GET "/" for ::1 at 2020-06-05 16:54:55 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_foot.html.erb (0.3ms)
+  Rendered pages/home.html.erb within layouts/application (4.3ms)
+Completed 500 Internal Server Error in 2155ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'turbolinks' with type 'application/javascript'
+Checked in these paths: 
+  /Users/ashantirichardson/code/acrichardson/portfolio_1/app/assets/config
+  /Users/ashantirichardson/code/acrichardson/portfolio_1/app/assets/images
+  /Users/ashantirichardson/code/acrichardson/portfolio_1/app/assets/javascripts
+  /Users/ashantirichardson/code/acrichardson/portfolio_1/app/assets/stylesheets
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/actioncable-5.2.4.1/lib/assets/compiled
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/activestorage-5.2.4.1/app/assets/javascripts
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/actionview-5.2.4.1/lib/assets/compiled
+  /Users/ashantirichardson/code/acrichardson/portfolio_1/node_modules
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/font-awesome-sass-5.12.0/assets/stylesheets
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/font-awesome-sass-5.12.0/assets/fonts
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/stylesheets
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/javascripts
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/fonts
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/images):
+Started GET "/" for ::1 at 2020-06-05 16:55:28 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.4ms)
+  Rendered shared/_foot.html.erb (0.5ms)
+  Rendered pages/home.html.erb within layouts/application (6.8ms)
+Completed 500 Internal Server Error in 2407ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'turbolinks' with type 'application/javascript'
+Checked in these paths: 
+  /Users/ashantirichardson/code/acrichardson/portfolio_1/app/assets/config
+  /Users/ashantirichardson/code/acrichardson/portfolio_1/app/assets/images
+  /Users/ashantirichardson/code/acrichardson/portfolio_1/app/assets/javascripts
+  /Users/ashantirichardson/code/acrichardson/portfolio_1/app/assets/stylesheets
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/actioncable-5.2.4.1/lib/assets/compiled
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/activestorage-5.2.4.1/app/assets/javascripts
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/actionview-5.2.4.1/lib/assets/compiled
+  /Users/ashantirichardson/code/acrichardson/portfolio_1/node_modules
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/font-awesome-sass-5.12.0/assets/stylesheets
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/font-awesome-sass-5.12.0/assets/fonts
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/stylesheets
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/javascripts
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/fonts
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/images):
+Started GET "/" for ::1 at 2020-06-05 16:55:37 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.0ms)
+  Rendered shared/_foot.html.erb (0.5ms)
+  Rendered pages/home.html.erb within layouts/application (5.6ms)
+Completed 500 Internal Server Error in 150ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset `application.css` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.css
+and restart your server):
+     6:     <title>TODO</title>
+     7:     <%= csrf_meta_tags %>
+     8:     <%= action_cable_meta_tag %>
+     9:     <%= stylesheet_link_tag 'application', media: 'all' %>
+    10:     <link href="https://fonts.googleapis.com/css?family=Codystar&display=swap" rel="stylesheet">
+    11:     <%#= stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
+    12:   </head>
+  
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__2323652587482086766_70101343342740'
+Started GET "/" for ::1 at 2020-06-05 16:55:40 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_foot.html.erb (0.4ms)
+  Rendered pages/home.html.erb within layouts/application (4.2ms)
+Completed 500 Internal Server Error in 61ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset `application.css` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.css
+and restart your server):
+     6:     <title>TODO</title>
+     7:     <%= csrf_meta_tags %>
+     8:     <%= action_cable_meta_tag %>
+     9:     <%= stylesheet_link_tag 'application', media: 'all' %>
+    10:     <link href="https://fonts.googleapis.com/css?family=Codystar&display=swap" rel="stylesheet">
+    11:     <%#= stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
+    12:   </head>
+  
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__2323652587482086766_70101351401840'
+Started GET "/" for ::1 at 2020-06-05 16:56:29 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.2ms)
+  Rendered shared/_foot.html.erb (0.5ms)
+  Rendered pages/home.html.erb within layouts/application (6.5ms)
+Completed 500 Internal Server Error in 101ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'turbolinks' with type 'application/javascript'
+Checked in these paths: 
+  /Users/ashantirichardson/code/acrichardson/portfolio_1/app/assets/config
+  /Users/ashantirichardson/code/acrichardson/portfolio_1/app/assets/images
+  /Users/ashantirichardson/code/acrichardson/portfolio_1/app/assets/javascripts
+  /Users/ashantirichardson/code/acrichardson/portfolio_1/app/assets/stylesheets
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/actioncable-5.2.4.1/lib/assets/compiled
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/activestorage-5.2.4.1/app/assets/javascripts
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/actionview-5.2.4.1/lib/assets/compiled
+  /Users/ashantirichardson/code/acrichardson/portfolio_1/node_modules
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/font-awesome-sass-5.12.0/assets/stylesheets
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/font-awesome-sass-5.12.0/assets/fonts
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/stylesheets
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/javascripts
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/fonts
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/images):
+Started GET "/" for ::1 at 2020-06-05 16:56:39 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.9ms)
+  Rendered shared/_foot.html.erb (1.0ms)
+  Rendered pages/home.html.erb within layouts/application (457.1ms)
+Completed 500 Internal Server Error in 950ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'turbolinks' with type 'application/javascript'
+Checked in these paths: 
+  /Users/ashantirichardson/code/acrichardson/portfolio_1/app/assets/config
+  /Users/ashantirichardson/code/acrichardson/portfolio_1/app/assets/images
+  /Users/ashantirichardson/code/acrichardson/portfolio_1/app/assets/javascripts
+  /Users/ashantirichardson/code/acrichardson/portfolio_1/app/assets/stylesheets
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/actioncable-5.2.4.1/lib/assets/compiled
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/activestorage-5.2.4.1/app/assets/javascripts
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/actionview-5.2.4.1/lib/assets/compiled
+  /Users/ashantirichardson/code/acrichardson/portfolio_1/node_modules
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/font-awesome-sass-5.12.0/assets/stylesheets
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/font-awesome-sass-5.12.0/assets/fonts
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/stylesheets
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/javascripts
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/fonts
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/images):
+Started GET "/" for ::1 at 2020-06-05 16:57:06 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.0ms)
+  Rendered shared/_foot.html.erb (0.5ms)
+  Rendered pages/home.html.erb within layouts/application (5.3ms)
+Completed 500 Internal Server Error in 2181ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset `application.css` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.css
+and restart your server):
+     6:     <title>TODO</title>
+     7:     <%= csrf_meta_tags %>
+     8:     <%= action_cable_meta_tag %>
+     9:     <%= stylesheet_link_tag 'application', media: 'all' %>
+    10:     <link href="https://fonts.googleapis.com/css?family=Codystar&display=swap" rel="stylesheet">
+    11:     <%#= stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
+    12:   </head>
+  
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__2323652587482086766_70101343464540'
+Started GET "/" for ::1 at 2020-06-05 16:59:06 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.7ms)
+  Rendered shared/_foot.html.erb (0.5ms)
+  Rendered pages/home.html.erb within layouts/application (8.2ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 403ms (Views: 401.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for ::1 at 2020-06-05 16:59:14 +0200
+Processing by ContactController#contact as HTML
+  Rendering contact/contact.html.erb within layouts/application
+  Rendered contact/contact.html.erb within layouts/application (3.8ms)
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial ./shared/_contact_form with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/Users/ashantirichardson/code/acrichardson/portfolio_1/app/views"
+):
+    1: <h1>This is my one page app!</h1>
+    2:   <div id="contact">
+    3:     <%= render './shared/contact_form' %>
+    4:   </div>
+  
+app/views/contact/contact.html.erb:3:in `_app_views_contact_contact_html_erb__4113560772875822920_70119859906100'
+Started GET "/contact" for ::1 at 2020-06-05 16:59:48 +0200
+Processing by ContactController#contact as HTML
+  Rendering contact/contact.html.erb within layouts/application
+  Rendered contact/contact.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial ./shared/_contact_form with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/Users/ashantirichardson/code/acrichardson/portfolio_1/app/views"
+):
+    1: <h1>This is my one page app!</h1>
+    2:   <div id="contact">
+    3:     <%= render './shared/contact_form' %>
+    4:   </div>
+  
+app/views/contact/contact.html.erb:3:in `_app_views_contact_contact_html_erb__4113560772875822920_70119909458900'
+Started GET "/" for ::1 at 2020-06-05 17:00:23 +0200
+Started GET "/" for ::1 at 2020-06-05 17:00:23 +0200
+Processing by PagesController#home as HTML
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.3ms)
+  Rendered shared/_navbar.html.erb (0.9ms)
+  Rendered shared/_foot.html.erb (0.5ms)
+  Rendered shared/_foot.html.erb (0.1ms)
+  Rendered pages/home.html.erb within layouts/application (9.3ms)
+  Rendered pages/home.html.erb within layouts/application (6.9ms)
+Completed 500 Internal Server Error in 591ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset `application.css` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.css
+and restart your server):
+     6:     <title>TODO</title>
+     7:     <%= csrf_meta_tags %>
+     8:     <%= action_cable_meta_tag %>
+     9:     <%= stylesheet_link_tag 'application', media: 'all' %>
+    10:     <link href="https://fonts.googleapis.com/css?family=Codystar&display=swap" rel="stylesheet">
+    11:     <%#= stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
+    12:   </head>
+  
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb___4569653844451936606_70342724281900'
+Completed 500 Internal Server Error in 795ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset `application.css` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.css
+and restart your server):
+     6:     <title>TODO</title>
+     7:     <%= csrf_meta_tags %>
+     8:     <%= action_cable_meta_tag %>
+     9:     <%= stylesheet_link_tag 'application', media: 'all' %>
+    10:     <link href="https://fonts.googleapis.com/css?family=Codystar&display=swap" rel="stylesheet">
+    11:     <%#= stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
+    12:   </head>
+  
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb___4569653844451936606_70342724281900'
+Started GET "/" for ::1 at 2020-06-05 17:01:21 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.1ms)
+  Rendered shared/_foot.html.erb (0.6ms)
+  Rendered pages/home.html.erb within layouts/application (5.7ms)
+Completed 500 Internal Server Error in 128ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'turbolinks' with type 'application/javascript'
+Checked in these paths: 
+  /Users/ashantirichardson/code/acrichardson/portfolio_1/app/assets/config
+  /Users/ashantirichardson/code/acrichardson/portfolio_1/app/assets/images
+  /Users/ashantirichardson/code/acrichardson/portfolio_1/app/assets/javascripts
+  /Users/ashantirichardson/code/acrichardson/portfolio_1/app/assets/stylesheets
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/actioncable-5.2.4.1/lib/assets/compiled
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/activestorage-5.2.4.1/app/assets/javascripts
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/actionview-5.2.4.1/lib/assets/compiled
+  /Users/ashantirichardson/code/acrichardson/portfolio_1/node_modules
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/font-awesome-sass-5.12.0/assets/stylesheets
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/font-awesome-sass-5.12.0/assets/fonts
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/stylesheets
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/javascripts
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/fonts
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/images):
+Started GET "/" for ::1 at 2020-06-05 17:01:23 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_foot.html.erb (0.3ms)
+  Rendered pages/home.html.erb within layouts/application (3.4ms)
+Completed 500 Internal Server Error in 94ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'turbolinks' with type 'application/javascript'
+Checked in these paths: 
+  /Users/ashantirichardson/code/acrichardson/portfolio_1/app/assets/config
+  /Users/ashantirichardson/code/acrichardson/portfolio_1/app/assets/images
+  /Users/ashantirichardson/code/acrichardson/portfolio_1/app/assets/javascripts
+  /Users/ashantirichardson/code/acrichardson/portfolio_1/app/assets/stylesheets
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/actioncable-5.2.4.1/lib/assets/compiled
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/activestorage-5.2.4.1/app/assets/javascripts
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/actionview-5.2.4.1/lib/assets/compiled
+  /Users/ashantirichardson/code/acrichardson/portfolio_1/node_modules
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/font-awesome-sass-5.12.0/assets/stylesheets
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/font-awesome-sass-5.12.0/assets/fonts
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/stylesheets
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/javascripts
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/fonts
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/images):
+Started GET "/" for ::1 at 2020-06-05 17:01:56 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.5ms)
+  Rendered shared/_foot.html.erb (0.6ms)
+  Rendered pages/home.html.erb within layouts/application (6.9ms)
+Completed 500 Internal Server Error in 217ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'turbolinks' with type 'application/javascript'
+Checked in these paths: 
+  /Users/ashantirichardson/code/acrichardson/portfolio_1/app/assets/config
+  /Users/ashantirichardson/code/acrichardson/portfolio_1/app/assets/images
+  /Users/ashantirichardson/code/acrichardson/portfolio_1/app/assets/javascripts
+  /Users/ashantirichardson/code/acrichardson/portfolio_1/app/assets/stylesheets
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/actioncable-5.2.4.1/lib/assets/compiled
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/activestorage-5.2.4.1/app/assets/javascripts
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/actionview-5.2.4.1/lib/assets/compiled
+  /Users/ashantirichardson/code/acrichardson/portfolio_1/node_modules
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/font-awesome-sass-5.12.0/assets/stylesheets
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/font-awesome-sass-5.12.0/assets/fonts
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/stylesheets
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/javascripts
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/fonts
+  /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/images):
+Started GET "/" for ::1 at 2020-06-05 17:01:57 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (3.0ms)
+  Rendered shared/_foot.html.erb (0.4ms)
+  Rendered pages/home.html.erb within layouts/application (6.7ms)
+Completed 500 Internal Server Error in 229ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset `application.css` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.css
+and restart your server):
+     6:     <title>TODO</title>
+     7:     <%= csrf_meta_tags %>
+     8:     <%= action_cable_meta_tag %>
+     9:     <%= stylesheet_link_tag 'application', media: 'all' %>
+    10:     <link href="https://fonts.googleapis.com/css?family=Codystar&display=swap" rel="stylesheet">
+    11:     <%#= stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
+    12:   </head>
+  
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb___3943419880674033988_70128981043180'
+Started GET "/" for ::1 at 2020-06-05 17:03:18 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (3.0ms)
+  Rendered shared/_foot.html.erb (0.5ms)
+  Rendered pages/home.html.erb within layouts/application (7.7ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 313ms (Views: 312.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for ::1 at 2020-06-05 17:03:21 +0200
+Processing by ContactController#contact as HTML
+  Rendering contact/contact.html.erb within layouts/application
+  Rendered contact/contact.html.erb within layouts/application (8.3ms)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial ./shared/_contact_form with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/Users/ashantirichardson/code/acrichardson/portfolio_1/app/views"
+):
+    1: <h1>This is my one page app!</h1>
+    2:   <div id="contact">
+    3:     <%= render './shared/contact_form' %>
+    4:   </div>
+  
+app/views/contact/contact.html.erb:3:in `_app_views_contact_contact_html_erb__4445718670831336486_70152974995560'
+Started GET "/contact" for ::1 at 2020-06-05 17:04:22 +0200
+Processing by ContactController#contact as HTML
+  Rendering contact/contact.html.erb within layouts/application
+  Rendered contact/contact.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial shared/_contact_form with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/Users/ashantirichardson/code/acrichardson/portfolio_1/app/views"
+):
+    1: <h1>This is my one page app!</h1>
+    2:   <div id="contact">
+    3:     <%= render '/shared/contact_form' %>
+    4:   </div>
+  
+app/views/contact/contact.html.erb:3:in `_app_views_contact_contact_html_erb__4445718670831336486_70152978618760'
+Started GET "/contact" for ::1 at 2020-06-05 17:04:47 +0200
+Processing by ContactController#contact as HTML
+  Rendering contact/contact.html.erb within layouts/application
+  Rendered contact/_contact_form.html.erb (506.5ms)
+  Rendered contact/contact.html.erb within layouts/application (509.4ms)
+Completed 500 Internal Server Error in 514ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `home_index_path' for #<#<Class:0x00007f9b864f0820>:0x00007f9b87b38fb0>):
+    1: <%= form_for @contact, url: home_index_path, remote: true do |f| %>
+    2:     <div class="col-md-6">
+    3:         <%= f.label :name %></br>
+    4:         <%= f.text_field  :name, required: true, class: "contact-form-text-area" %></br>
+  
+app/views/contact/_contact_form.html.erb:1:in `_app_views_contact__contact_form_html_erb__3683203041887123029_70152976201460'
+app/views/contact/contact.html.erb:3:in `_app_views_contact_contact_html_erb__4445718670831336486_70152986657140'
+Started GET "/contact" for ::1 at 2020-06-05 17:05:28 +0200
+Processing by ContactController#contact as HTML
+  Rendering contact/contact.html.erb within layouts/application
+  Rendered contact/_flash.html.erb (0.8ms)
+  Rendered contact/_contact_form.html.erb (100.4ms)
+  Rendered contact/contact.html.erb within layouts/application (101.6ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 140ms (Views: 138.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/contact" for ::1 at 2020-06-05 17:05:45 +0200
+Processing by ContactController#create as JS
+  Parameters: {"utf8"=>"✓", "contact"=>{"name"=>"Ashanti Richardson", "email"=>"ashanti.richardson@gmail.com", "message"=>"TEST", "nickname"=>""}, "commit"=>"Send Message"}
+  Rendering /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/mail_form-1.8.0/lib/mail_form/views/mail_form/contact.erb
+  Rendered /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/mail_form-1.8.0/lib/mail_form/views/mail_form/contact.erb (2.0ms)
+MailForm::Notifier#contact: processed outbound mail in 1006.6ms
+Sent mail to ashanti.richardson@gmail.com (2324.0ms)
+Date: Fri, 05 Jun 2020 17:05:46 +0200
+From: Ashanti Richardson <ashanti.richardson@gmail.com>
+To: ashanti.richardson@gmail.com
+Message-ID: <5eda5f4a97e83_16a33fcdc40840cc3483d@MacBook-Pro-van-Ashanti.local.mail>
+Subject: Contact Form Inquiry
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<h4 style="text-decoration:underline">Contact Form Inquiry</h4>
+
+
+  <p><b>Name:</b>
+  Ashanti Richardson</p>
+
+  <p><b>Email:</b>
+  ashanti.richardson@gmail.com</p>
+
+  <p><b>Message:</b>
+  TEST</p>
+
+
+  Rendering contact/create.js.erb
+  Rendered contact/_flash.html.erb (0.5ms)
+  Rendered contact/_contact_form.html.erb (5.5ms)
+  Rendered contact/_flash.html.erb (0.1ms)
+  Rendered contact/create.js.erb (9.4ms)
+Completed 200 OK in 3730ms (Views: 13.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/contact" for ::1 at 2020-06-05 17:05:57 +0200
+Processing by ContactController#create as JS
+  Parameters: {"utf8"=>"✓", "contact"=>{"name"=>"Ashanti Richardson", "email"=>"ashanti.richardson@gmail.com", "message"=>"TEST", "nickname"=>""}, "commit"=>"Send Message"}
+  Rendering /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/mail_form-1.8.0/lib/mail_form/views/mail_form/contact.erb
+  Rendered /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/mail_form-1.8.0/lib/mail_form/views/mail_form/contact.erb (1.4ms)
+MailForm::Notifier#contact: processed outbound mail in 9.9ms
+Sent mail to ashanti.richardson@gmail.com (2148.4ms)
+Date: Fri, 05 Jun 2020 17:05:57 +0200
+From: Ashanti Richardson <ashanti.richardson@gmail.com>
+To: ashanti.richardson@gmail.com
+Message-ID: <5eda5f551f7d3_16a33fcdc32affc834924@MacBook-Pro-van-Ashanti.local.mail>
+Subject: Contact Form Inquiry
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<h4 style="text-decoration:underline">Contact Form Inquiry</h4>
+
+
+  <p><b>Name:</b>
+  Ashanti Richardson</p>
+
+  <p><b>Email:</b>
+  ashanti.richardson@gmail.com</p>
+
+  <p><b>Message:</b>
+  TEST</p>
+
+
+  Rendering contact/create.js.erb
+  Rendered contact/_flash.html.erb (0.6ms)
+  Rendered contact/_contact_form.html.erb (6.1ms)
+  Rendered contact/_flash.html.erb (0.0ms)
+  Rendered contact/create.js.erb (9.0ms)
+Completed 200 OK in 2173ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for ::1 at 2020-06-05 17:09:03 +0200
+Processing by ContactController#contact as HTML
+  Rendering contact/contact.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (5.5ms)
+  Rendered contact/_flash.html.erb (6.2ms)
+  Rendered contact/_contact_form.html.erb (20.7ms)
+  Rendered contact/contact.html.erb within layouts/application (33.3ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 99ms (Views: 95.3ms | ActiveRecord: 0.0ms)
+
+
