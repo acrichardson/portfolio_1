@@ -1,14 +1,35 @@
-.footer{
+.foot{
   display: flex;
-  background-color: rgb(35,35,35);
   padding: 11px;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  text-align: center
+  text-align: center;
+  width: 100vw;
+  opacity: 100%;
+  // border-style: dotted;
 }
 
-.icons{
+.icon{
   text-decoration: none;
-  color: #1EDD90;
-  font-size: 25px;
+  color: #404040;
+  font-size: 20px;
+}
+
+.icon:hover {
+  text-decoration: none;
+  color: #404040;
+  -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.bottom {
+  bottom:0;
+  position:fixed;
+  z-index:150;
 }
