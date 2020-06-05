@@ -15290,3 +15290,433 @@ Processing by ContactController#contact as HTML
 Completed 200 OK in 99ms (Views: 95.3ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/contact" for ::1 at 2020-06-05 17:24:24 +0200
+Processing by ContactController#contact as HTML
+  Rendering contact/contact.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (7.1ms)
+  Rendered contact/_flash.html.erb (6.2ms)
+  Rendered contact/_contact_form.html.erb (14.7ms)
+  Rendered contact/contact.html.erb within layouts/application (29.2ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 3011ms (Views: 3005.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-05 17:25:21 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_foot.html.erb (0.5ms)
+  Rendered pages/about_me.html.erb within layouts/application (6.3ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 41ms (Views: 39.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-05 17:25:46 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_foot.html.erb (0.5ms)
+  Rendered pages/about_me.html.erb within layouts/application (5.0ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 69ms (Views: 67.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-05 17:26:08 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (5.5ms)
+  Rendered shared/_foot.html.erb (1.0ms)
+  Rendered pages/about_me.html.erb within layouts/application (12.6ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 96ms (Views: 93.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-06-05 17:26:11 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.3ms)
+  Rendered shared/_foot.html.erb (0.5ms)
+  Rendered pages/home.html.erb within layouts/application (6.4ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 309ms (Views: 38.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-06-05 17:26:43 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.7ms)
+  Rendered shared/_foot.html.erb (0.5ms)
+  Rendered pages/home.html.erb within layouts/application (8.1ms)
+Started GET "/about_me" for ::1 at 2020-06-05 17:26:50 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.4ms)
+  Rendered shared/_foot.html.erb (0.5ms)
+  Rendered pages/about_me.html.erb within layouts/application (8.2ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2423ms (Views: 2409.4ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 9962ms (Views: 9960.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-05 17:27:45 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (8.6ms)
+  Rendered shared/_foot.html.erb (1.8ms)
+  Rendered pages/about_me.html.erb within layouts/application (391.3ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6392ms (Views: 5378.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-05 17:29:19 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (6.1ms)
+  Rendered shared/_foot.html.erb (0.9ms)
+  Rendered pages/about_me.html.erb within layouts/application (16.0ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2262ms (Views: 2257.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for ::1 at 2020-06-05 17:29:23 +0200
+Processing by ContactController#contact as HTML
+  Rendering contact/contact.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered contact/_flash.html.erb (1.0ms)
+  Rendered contact/_contact_form.html.erb (5.8ms)
+  Rendered contact/contact.html.erb within layouts/application (9.3ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 37ms (Views: 34.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for ::1 at 2020-06-05 17:37:35 +0200
+Processing by ContactController#contact as HTML
+  Rendering contact/contact.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (4.5ms)
+  Rendered contact/_flash.html.erb (8.0ms)
+  Rendered contact/_contact_form.html.erb (25.4ms)
+  Rendered contact/contact.html.erb within layouts/application (36.8ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 104ms (Views: 100.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for ::1 at 2020-06-05 17:38:54 +0200
+Processing by ContactController#contact as HTML
+  Rendering contact/contact.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (5.7ms)
+  Rendered contact/_flash.html.erb (3.4ms)
+  Rendered contact/_contact_form.html.erb (14.5ms)
+  Rendered contact/contact.html.erb within layouts/application (28.5ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2208ms (Views: 2203.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for ::1 at 2020-06-05 17:46:33 +0200
+Processing by ContactController#contact as HTML
+  Rendering contact/contact.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (8.0ms)
+  Rendered contact/_flash.html.erb (4.4ms)
+  Rendered contact/_contact_form.html.erb (13.9ms)
+  Rendered contact/contact.html.erb within layouts/application (29.1ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2270ms (Views: 2264.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for ::1 at 2020-06-05 17:46:43 +0200
+Processing by ContactController#contact as HTML
+  Rendering contact/contact.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.1ms)
+  Rendered contact/_flash.html.erb (1.3ms)
+  Rendered contact/_contact_form.html.erb (7.0ms)
+  Rendered contact/contact.html.erb within layouts/application (12.6ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 53ms (Views: 52.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for ::1 at 2020-06-05 17:48:39 +0200
+Processing by ContactController#contact as HTML
+  Rendering contact/contact.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (5.0ms)
+  Rendered contact/_flash.html.erb (3.3ms)
+  Rendered contact/_contact_form.html.erb (13.3ms)
+  Rendered contact/contact.html.erb within layouts/application (25.1ms)
+Completed 500 Internal Server Error in 383ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Error: Invalid CSS after "}": expected selector or at-rule, was "}"
+        on line 6:2 of app/assets/stylesheets/pages/_contact.css
+        from line 18:1 of app/assets/stylesheets/application.scss
+>> }
+
+   -^
+):
+     6:     <title>TODO</title>
+     7:     <%= csrf_meta_tags %>
+     8:     <%= action_cable_meta_tag %>
+     9:     <%= stylesheet_link_tag 'application', media: 'all' %>
+    10:     <link href="https://fonts.googleapis.com/css?family=Codystar&display=swap" rel="stylesheet">
+    11:     <%#= stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
+    12:   </head>
+  
+app/assets/stylesheets/pages/_contact.css:6
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__1525189001272395605_70153027503120'
+Started GET "/contact" for ::1 at 2020-06-05 17:48:50 +0200
+Processing by ContactController#contact as HTML
+  Rendering contact/contact.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.3ms)
+  Rendered contact/_flash.html.erb (0.7ms)
+  Rendered contact/_contact_form.html.erb (4.4ms)
+  Rendered contact/contact.html.erb within layouts/application (10.4ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2161ms (Views: 2159.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for ::1 at 2020-06-05 17:53:37 +0200
+Processing by ContactController#contact as HTML
+  Rendering contact/contact.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (6.1ms)
+  Rendered contact/_flash.html.erb (3.4ms)
+  Rendered contact/_contact_form.html.erb (13.7ms)
+  Rendered contact/contact.html.erb within layouts/application (27.3ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 96ms (Views: 92.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for ::1 at 2020-06-05 17:53:39 +0200
+Processing by ContactController#contact as HTML
+  Rendering contact/contact.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (4.6ms)
+  Rendered contact/_flash.html.erb (0.9ms)
+  Rendered contact/_contact_form.html.erb (14.7ms)
+  Rendered contact/contact.html.erb within layouts/application (25.8ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 102ms (Views: 98.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for ::1 at 2020-06-05 17:54:15 +0200
+Processing by ContactController#contact as HTML
+  Rendering contact/contact.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (5.0ms)
+  Rendered contact/_flash.html.erb (2.4ms)
+  Rendered contact/_contact_form.html.erb (10.6ms)
+  Rendered contact/contact.html.erb within layouts/application (22.3ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 67ms (Views: 62.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for ::1 at 2020-06-05 17:57:54 +0200
+Processing by ContactController#contact as HTML
+  Rendering contact/contact.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (6.9ms)
+  Rendered contact/_flash.html.erb (6.5ms)
+  Rendered contact/_contact_form.html.erb (19.0ms)
+  Rendered contact/contact.html.erb within layouts/application (36.7ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 101ms (Views: 96.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for ::1 at 2020-06-05 17:58:56 +0200
+Processing by ContactController#contact as HTML
+  Rendering contact/contact.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (6.4ms)
+  Rendered contact/_flash.html.erb (1.0ms)
+  Rendered contact/_contact_form.html.erb (6.5ms)
+  Rendered contact/contact.html.erb within layouts/application (17.5ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 158ms (Views: 157.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for ::1 at 2020-06-05 17:59:33 +0200
+Processing by ContactController#contact as HTML
+  Rendering contact/contact.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (4.9ms)
+  Rendered contact/_flash.html.erb (3.6ms)
+  Rendered contact/_contact_form.html.erb (16.1ms)
+  Rendered contact/contact.html.erb within layouts/application (28.5ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 91ms (Views: 86.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for ::1 at 2020-06-05 17:59:54 +0200
+Processing by ContactController#contact as HTML
+  Rendering contact/contact.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.1ms)
+  Rendered contact/_flash.html.erb (1.0ms)
+  Rendered contact/_contact_form.html.erb (5.4ms)
+  Rendered contact/contact.html.erb within layouts/application (9.9ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 48ms (Views: 46.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for ::1 at 2020-06-05 18:00:16 +0200
+Processing by ContactController#contact as HTML
+  Rendering contact/contact.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered contact/_flash.html.erb (0.8ms)
+  Rendered contact/_contact_form.html.erb (4.1ms)
+  Rendered contact/contact.html.erb within layouts/application (8.0ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 43ms (Views: 42.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/contact" for ::1 at 2020-06-05 18:00:46 +0200
+Processing by ContactController#create as JS
+  Parameters: {"utf8"=>"✓", "contact"=>{"name"=>"Ashanti Richardson", "email"=>"ashanti.richardson@gmail.com", "message"=>"test2", "nickname"=>""}, "commit"=>"Send Message"}
+  Rendering /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/mail_form-1.8.0/lib/mail_form/views/mail_form/contact.erb
+  Rendered /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/mail_form-1.8.0/lib/mail_form/views/mail_form/contact.erb (2.3ms)
+MailForm::Notifier#contact: processed outbound mail in 17.5ms
+Sent mail to ashanti.richardson@gmail.com (1707.8ms)
+Date: Fri, 05 Jun 2020 18:00:46 +0200
+From: Ashanti Richardson <ashanti.richardson@gmail.com>
+To: ashanti.richardson@gmail.com
+Message-ID: <5eda6c2e13d5b_16a33fcdc40840cc350be@MacBook-Pro-van-Ashanti.local.mail>
+Subject: Contact Form Inquiry
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<h4 style="text-decoration:underline">Contact Form Inquiry</h4>
+
+
+  <p><b>Name:</b>
+  Ashanti Richardson</p>
+
+  <p><b>Email:</b>
+  ashanti.richardson@gmail.com</p>
+
+  <p><b>Message:</b>
+  test2</p>
+
+
+  Rendering contact/create.js.erb
+  Rendered contact/_flash.html.erb (0.5ms)
+  Rendered contact/_contact_form.html.erb (4.1ms)
+  Rendered contact/_flash.html.erb (0.0ms)
+  Rendered contact/create.js.erb (6.7ms)
+Completed 200 OK in 1739ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for ::1 at 2020-06-05 18:05:49 +0200
+Processing by ContactController#contact as HTML
+  Rendering contact/contact.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (12.4ms)
+  Rendered contact/_flash.html.erb (4.3ms)
+  Rendered contact/_contact_form.html.erb (17.9ms)
+  Rendered contact/contact.html.erb within layouts/application (42.0ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 325ms (Views: 319.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for ::1 at 2020-06-05 18:06:24 +0200
+Processing by ContactController#contact as HTML
+  Rendering contact/contact.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.6ms)
+  Rendered contact/_flash.html.erb (6.4ms)
+  Rendered contact/_contact_form.html.erb (29.0ms)
+  Rendered contact/contact.html.erb within layouts/application (36.1ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 471ms (Views: 460.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/contact" for ::1 at 2020-06-05 18:06:56 +0200
+Processing by ContactController#create as JS
+  Parameters: {"utf8"=>"✓", "contact"=>{"name"=>"Ashanti Richardson", "email"=>"ashanti.richardson@gmail.com", "message"=>"test3", "nickname"=>""}, "commit"=>"Send Message"}
+  Rendering /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/mail_form-1.8.0/lib/mail_form/views/mail_form/contact.erb
+  Rendered /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/mail_form-1.8.0/lib/mail_form/views/mail_form/contact.erb (1.7ms)
+MailForm::Notifier#contact: processed outbound mail in 71.4ms
+Sent mail to ashanti.richardson@gmail.com (1058.0ms)
+Date: Fri, 05 Jun 2020 18:06:56 +0200
+From: Ashanti Richardson <ashanti.richardson@gmail.com>
+To: ashanti.richardson@gmail.com
+Message-ID: <5eda6da0bd2f6_1b203fcfc7d25650615a8@MacBook-Pro-van-Ashanti.local.mail>
+Subject: Contact Form Inquiry
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<h4 style="text-decoration:underline">Contact Form Inquiry</h4>
+
+
+  <p><b>Name:</b>
+  Ashanti Richardson</p>
+
+  <p><b>Email:</b>
+  ashanti.richardson@gmail.com</p>
+
+  <p><b>Message:</b>
+  test3</p>
+
+
+  Rendering contact/create.js.erb
+  Rendered contact/_flash.html.erb (0.4ms)
+  Rendered contact/_contact_form.html.erb (7.8ms)
+  Rendered contact/_flash.html.erb (0.0ms)
+  Rendered contact/create.js.erb (12.8ms)
+Completed 200 OK in 1283ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-05 18:07:38 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (5.7ms)
+  Rendered shared/_foot.html.erb (0.5ms)
+  Rendered pages/about_me.html.erb within layouts/application (11.9ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 93ms (Views: 90.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for ::1 at 2020-06-05 18:07:55 +0200
+Processing by ContactController#contact as HTML
+  Rendering contact/contact.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (60.7ms)
+  Rendered contact/_flash.html.erb (1.0ms)
+  Rendered contact/_contact_form.html.erb (7.5ms)
+  Rendered contact/contact.html.erb within layouts/application (71.9ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 125ms (Views: 123.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/contact" for ::1 at 2020-06-05 18:08:11 +0200
+Processing by ContactController#create as JS
+  Parameters: {"utf8"=>"✓", "contact"=>{"name"=>"Ashanti Richardson", "email"=>"ashanti.richardson@gmail.com", "message"=>"test4", "nickname"=>""}, "commit"=>"Send Message"}
+  Rendering /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/mail_form-1.8.0/lib/mail_form/views/mail_form/contact.erb
+  Rendered /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/mail_form-1.8.0/lib/mail_form/views/mail_form/contact.erb (1.7ms)
+MailForm::Notifier#contact: processed outbound mail in 11.8ms
+Sent mail to ashanti.richardson@gmail.com (864.0ms)
+Date: Fri, 05 Jun 2020 18:08:11 +0200
+From: Ashanti Richardson <ashanti.richardson@gmail.com>
+To: ashanti.richardson@gmail.com
+Message-ID: <5eda6debaeea1_1b203fcfc7d2588061647@MacBook-Pro-van-Ashanti.local.mail>
+Subject: Contact Form Inquiry
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<h4 style="text-decoration:underline">Contact Form Inquiry</h4>
+
+
+  <p><b>Name:</b>
+  Ashanti Richardson</p>
+
+  <p><b>Email:</b>
+  ashanti.richardson@gmail.com</p>
+
+  <p><b>Message:</b>
+  test4</p>
+
+
+  Rendering contact/create.js.erb
+  Rendered contact/_flash.html.erb (0.5ms)
+  Rendered contact/_contact_form.html.erb (3.9ms)
+  Rendered contact/_flash.html.erb (0.1ms)
+  Rendered contact/create.js.erb (6.4ms)
+Completed 200 OK in 888ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+

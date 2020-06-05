@@ -1,0 +1,10 @@
+Now commit your app into your github repository and also to heroku:
+git add .
+git commit -m "App ready for first deployment"
+git push
+git push heroku master
+Now your app is on the heroku server, but it's not live just yet, there are a couple more steps to go. Install your gems and set up the database:
+heroku run bundle install
+heroku run rake db:migrate
+Lastly, since github and heroku do not have access to the .env file with your environment variables, we need provide heroku with them (otherwise it will not be able to login to your mailer's email account to send you the emailed contact form). Replace your_gmail_email_address and your_gmail_password with your mailer's credentials (note no quotations) and copy the line into the terminal:
+heroku config:set GMAIL_EMAIL=your_gmail_email_address GMAIL_PASSWORD=your_gmail_password
