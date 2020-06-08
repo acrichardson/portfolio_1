@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   get 'contact', to: 'contact#contact'
   get 'landing', to: 'landing#projectlanding'
   get 'about_me', to: 'pages#about_me'
+  get 'home_test', to: 'pages#home_test'
   root to: 'pages#home'
 
   resources :contact, only: [:index, :new, :create]

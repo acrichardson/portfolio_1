@@ -1,1 +1,34 @@
-// Specific CSS for your home-page
+.flex {
+  display: flex;
+  /*justify-content: space-between;*/
+}
+
+li {
+  list-style-type: none;
+}
+
+.half {
+  width: 45vw;
+}
+
+.home_background {
+  // background-image: url(color.jpg);
+  background-color: black;
+  color: white;
+  // height: 93vh;
+  background-size: cover;
+}// Specific CSS for your home-page
+
+.img_homet {
+  width: 45vw;
+  transition-duration: 1s;
+}
+
+.img_homet:hover {
+  width: 70vw;
+}
+
+.description {
+  align-items: flex-start;
+  margin-left: 5vw;
+}
