@@ -17,6 +17,7 @@ li {
   color: white;
   // height: 93vh;
   background-size: cover;
+  padding-bottom: 20px;
 }// Specific CSS for your home-page
 
 .img_homet {
@@ -31,4 +32,15 @@ li {
 .description {
   align-items: flex-start;
   margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+.intro {
+  background-color: white;
+  width: 50vw;
+  height: 25vw;
+  color: black;
+  margin: auto;
+  margin-bottom: 5vh;
+  box-decoration-break: box-shadow;
 }
