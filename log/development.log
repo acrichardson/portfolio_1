@@ -21964,3 +21964,774 @@ Processing by PagesController#about_me as HTML
 Completed 200 OK in 45ms (Views: 40.3ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/about_me" for ::1 at 2020-06-23 16:00:36 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (3.6ms)
+  Rendered shared/_foot.html.erb (0.5ms)
+  Rendered pages/about_me.html.erb within layouts/application (9.5ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 118ms (Views: 116.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:02:03 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (3.3ms)
+  Rendered shared/_foot.html.erb (0.9ms)
+  Rendered pages/about_me.html.erb within layouts/application (9.7ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 59ms (Views: 57.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:02:18 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.5ms)
+  Rendered shared/_foot.html.erb (0.6ms)
+  Rendered pages/about_me.html.erb within layouts/application (7.2ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 60ms (Views: 58.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:02:28 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.8ms)
+  Rendered shared/_foot.html.erb (1.0ms)
+  Rendered pages/about_me.html.erb within layouts/application (7.2ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 42ms (Views: 41.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:04:20 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (3.0ms)
+  Rendered shared/_foot.html.erb (0.8ms)
+  Rendered pages/about_me.html.erb within layouts/application (8.9ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15186ms (Views: 15184.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:05:20 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.5ms)
+  Rendered shared/_foot.html.erb (0.8ms)
+  Rendered pages/about_me.html.erb within layouts/application (8.4ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 45ms (Views: 44.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:06:54 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (3.2ms)
+  Rendered shared/_foot.html.erb (0.5ms)
+  Rendered pages/about_me.html.erb within layouts/application (8.0ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 89ms (Views: 87.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:08:28 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (9.4ms)
+  Rendered shared/_foot.html.erb (1.2ms)
+  Rendered pages/about_me.html.erb within layouts/application (24.2ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 103ms (Views: 96.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:10:31 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (3.9ms)
+  Rendered shared/_foot.html.erb (0.5ms)
+  Rendered pages/about_me.html.erb within layouts/application (8.9ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2176ms (Views: 2174.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:13:15 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (6.0ms)
+  Rendered shared/_foot.html.erb (0.8ms)
+  Rendered pages/about_me.html.erb within layouts/application (15.2ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2187ms (Views: 2182.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:20:01 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (7.8ms)
+  Rendered shared/_foot.html.erb (1.8ms)
+  Rendered pages/about_me.html.erb within layouts/application (20.2ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4406ms (Views: 4401.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:20:58 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.9ms)
+  Rendered shared/_foot.html.erb (0.9ms)
+  Rendered pages/about_me.html.erb within layouts/application (9.2ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2111ms (Views: 2109.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:24:04 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (14.4ms)
+  Rendered shared/_foot.html.erb (2.0ms)
+  Rendered pages/about_me.html.erb within layouts/application (28.6ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2299ms (Views: 2294.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:24:16 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.9ms)
+  Rendered shared/_foot.html.erb (0.8ms)
+  Rendered pages/about_me.html.erb within layouts/application (6.5ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1867ms (Views: 1865.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:25:22 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.9ms)
+  Rendered shared/_foot.html.erb (0.8ms)
+  Rendered pages/about_me.html.erb within layouts/application (6.6ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2094ms (Views: 2092.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:25:40 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_foot.html.erb (0.7ms)
+  Rendered pages/about_me.html.erb within layouts/application (5.2ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1785ms (Views: 1783.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:26:01 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_foot.html.erb (0.4ms)
+  Rendered pages/about_me.html.erb within layouts/application (4.7ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1817ms (Views: 1815.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:26:29 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_foot.html.erb (0.4ms)
+  Rendered pages/about_me.html.erb within layouts/application (6.8ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 42ms (Views: 39.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:27:54 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (6.2ms)
+  Rendered shared/_foot.html.erb (2.6ms)
+  Rendered pages/about_me.html.erb within layouts/application (525.8ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1435ms (Views: 1434.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:29:41 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (18.5ms)
+  Rendered shared/_foot.html.erb (3.1ms)
+  Rendered pages/about_me.html.erb within layouts/application (32.9ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 246ms (Views: 240.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:30:58 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (8.2ms)
+  Rendered shared/_foot.html.erb (0.8ms)
+  Rendered pages/about_me.html.erb within layouts/application (18.9ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 72ms (Views: 70.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:31:10 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.6ms)
+  Rendered shared/_foot.html.erb (0.8ms)
+  Rendered pages/about_me.html.erb within layouts/application (7.1ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 45ms (Views: 43.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:31:28 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.1ms)
+  Rendered shared/_foot.html.erb (0.5ms)
+  Rendered pages/about_me.html.erb within layouts/application (6.1ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 45ms (Views: 43.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:31:49 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.2ms)
+  Rendered shared/_foot.html.erb (0.5ms)
+  Rendered pages/about_me.html.erb within layouts/application (5.4ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 42ms (Views: 41.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:32:09 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (3.1ms)
+  Rendered shared/_foot.html.erb (1.0ms)
+  Rendered pages/about_me.html.erb within layouts/application (9.8ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 64ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:32:37 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.1ms)
+  Rendered shared/_foot.html.erb (0.4ms)
+  Rendered pages/about_me.html.erb within layouts/application (6.7ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 49ms (Views: 47.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:33:04 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.2ms)
+  Rendered shared/_foot.html.erb (0.6ms)
+  Rendered pages/about_me.html.erb within layouts/application (5.6ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 35ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:33:15 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.4ms)
+  Rendered shared/_foot.html.erb (0.5ms)
+  Rendered pages/about_me.html.erb within layouts/application (5.6ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 38ms (Views: 37.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:34:33 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_foot.html.erb (0.5ms)
+  Rendered pages/about_me.html.erb within layouts/application (6.2ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 43ms (Views: 41.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:34:58 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_foot.html.erb (0.5ms)
+  Rendered pages/about_me.html.erb within layouts/application (5.6ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 38ms (Views: 36.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:35:12 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.1ms)
+  Rendered shared/_foot.html.erb (0.5ms)
+  Rendered pages/about_me.html.erb within layouts/application (5.3ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2206ms (Views: 2205.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:36:07 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.5ms)
+  Rendered shared/_foot.html.erb (0.6ms)
+  Rendered pages/about_me.html.erb within layouts/application (9.0ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 52ms (Views: 51.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:36:15 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_foot.html.erb (0.4ms)
+  Rendered pages/about_me.html.erb within layouts/application (4.4ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 33ms (Views: 31.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:36:43 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (3.1ms)
+  Rendered shared/_foot.html.erb (0.8ms)
+  Rendered pages/about_me.html.erb within layouts/application (8.3ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 43ms (Views: 41.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:36:51 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_foot.html.erb (0.4ms)
+  Rendered pages/about_me.html.erb within layouts/application (4.5ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 36ms (Views: 35.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:37:08 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_foot.html.erb (0.6ms)
+  Rendered pages/about_me.html.erb within layouts/application (5.6ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 44ms (Views: 43.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:37:17 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.9ms)
+  Rendered shared/_foot.html.erb (0.5ms)
+  Rendered pages/about_me.html.erb within layouts/application (5.9ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 39ms (Views: 37.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:37:30 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (3.4ms)
+  Rendered shared/_foot.html.erb (0.7ms)
+  Rendered pages/about_me.html.erb within layouts/application (162.1ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 545ms (Views: 543.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:39:19 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (3.8ms)
+  Rendered shared/_foot.html.erb (0.7ms)
+  Rendered pages/about_me.html.erb within layouts/application (15.0ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2317ms (Views: 2314.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:39:55 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_foot.html.erb (0.4ms)
+  Rendered pages/about_me.html.erb within layouts/application (4.7ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1875ms (Views: 1873.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:40:27 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.2ms)
+  Rendered shared/_foot.html.erb (0.5ms)
+  Rendered pages/about_me.html.erb within layouts/application (7.1ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 44ms (Views: 43.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for ::1 at 2020-06-23 16:49:27 +0200
+Processing by ContactController#contact as HTML
+  Rendering contact/contact.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (4.6ms)
+  Rendered contact/_flash.html.erb (3.3ms)
+  Rendered contact/_contact_form.html.erb (15.5ms)
+  Rendered contact/contact.html.erb within layouts/application (27.3ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 107ms (Views: 101.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:49:30 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (5.9ms)
+  Rendered shared/_foot.html.erb (0.7ms)
+  Rendered pages/about_me.html.erb within layouts/application (115.4ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 145ms (Views: 143.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 16:49:31 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.0ms)
+  Rendered shared/_foot_home.html.erb (0.5ms)
+  Rendered pages/home_test.html.erb within layouts/application (6.9ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 39ms (Views: 36.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:50:04 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_foot.html.erb (0.4ms)
+  Rendered pages/about_me.html.erb within layouts/application (5.9ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 48ms (Views: 46.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 16:50:11 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_foot_home.html.erb (1.1ms)
+  Rendered pages/home_test.html.erb within layouts/application (6.8ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 40ms (Views: 35.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:50:12 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_foot.html.erb (0.4ms)
+  Rendered pages/about_me.html.erb within layouts/application (4.6ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 35ms (Views: 33.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:50:43 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_foot.html.erb (0.4ms)
+  Rendered pages/about_me.html.erb within layouts/application (5.9ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 42ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:50:46 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_foot.html.erb (0.4ms)
+  Rendered pages/about_me.html.erb within layouts/application (4.9ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 39ms (Views: 38.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:53:06 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (7.9ms)
+  Rendered shared/_foot.html.erb (0.8ms)
+  Rendered pages/about_me.html.erb within layouts/application (16.9ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 97ms (Views: 89.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:53:28 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_foot.html.erb (0.7ms)
+  Rendered pages/about_me.html.erb within layouts/application (5.5ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 45ms (Views: 43.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:53:59 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.2ms)
+  Rendered shared/_foot.html.erb (0.5ms)
+  Rendered pages/about_me.html.erb within layouts/application (6.0ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 40ms (Views: 39.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:54:50 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (8.0ms)
+  Rendered shared/_foot.html.erb (0.8ms)
+  Rendered pages/about_me.html.erb within layouts/application (17.6ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2414ms (Views: 2406.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:55:35 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.1ms)
+  Rendered shared/_foot.html.erb (0.6ms)
+  Rendered pages/about_me.html.erb within layouts/application (6.8ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2250ms (Views: 2247.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:55:51 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.3ms)
+  Rendered shared/_foot.html.erb (0.6ms)
+  Rendered pages/about_me.html.erb within layouts/application (5.9ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1866ms (Views: 1864.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:55:58 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.3ms)
+  Rendered shared/_foot.html.erb (0.9ms)
+  Rendered pages/about_me.html.erb within layouts/application (6.1ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1823ms (Views: 1821.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:56:10 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.6ms)
+  Rendered shared/_foot.html.erb (0.8ms)
+  Rendered pages/about_me.html.erb within layouts/application (7.3ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2050ms (Views: 2048.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:56:18 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.9ms)
+  Rendered shared/_foot.html.erb (0.5ms)
+  Rendered pages/about_me.html.erb within layouts/application (4.9ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1782ms (Views: 1780.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:56:32 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_foot.html.erb (0.4ms)
+  Rendered pages/about_me.html.erb within layouts/application (4.5ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 3027ms (Views: 3025.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:56:59 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (3.6ms)
+  Rendered shared/_foot.html.erb (1.3ms)
+  Rendered pages/about_me.html.erb within layouts/application (11.4ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 79ms (Views: 74.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:57:24 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.5ms)
+  Rendered shared/_foot.html.erb (0.6ms)
+  Rendered pages/about_me.html.erb within layouts/application (7.6ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 3389ms (Views: 3387.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:57:59 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.7ms)
+  Rendered shared/_foot.html.erb (0.6ms)
+  Rendered pages/about_me.html.erb within layouts/application (8.1ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 47ms (Views: 46.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:58:02 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.0ms)
+  Rendered shared/_foot.html.erb (0.6ms)
+  Rendered pages/about_me.html.erb within layouts/application (5.0ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 33ms (Views: 32.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:58:11 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_foot.html.erb (0.4ms)
+  Rendered pages/about_me.html.erb within layouts/application (4.2ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 32ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:58:23 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_foot.html.erb (0.5ms)
+  Rendered pages/about_me.html.erb within layouts/application (5.3ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 38ms (Views: 37.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:58:43 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (3.4ms)
+  Rendered shared/_foot.html.erb (1.1ms)
+  Rendered pages/about_me.html.erb within layouts/application (10.6ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 91ms (Views: 89.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 16:59:49 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (3.8ms)
+  Rendered shared/_foot.html.erb (0.9ms)
+  Rendered pages/about_me.html.erb within layouts/application (9.2ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2257ms (Views: 2253.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 17:09:16 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (7.1ms)
+  Rendered shared/_foot.html.erb (0.9ms)
+  Rendered pages/about_me.html.erb within layouts/application (24.6ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 128ms (Views: 124.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 17:15:19 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (6.6ms)
+  Rendered shared/_foot.html.erb (1.2ms)
+  Rendered pages/about_me.html.erb within layouts/application (20.0ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 108ms (Views: 103.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 17:16:18 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (20.2ms)
+  Rendered shared/_foot.html.erb (1.2ms)
+  Rendered pages/about_me.html.erb within layouts/application (40.7ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 131ms (Views: 127.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-06-23 17:17:18 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (14.7ms)
+  Rendered shared/_foot_home.html.erb (0.8ms)
+  Rendered pages/home.html.erb within layouts/application (35.1ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 112ms (Views: 99.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 17:17:40 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (7.5ms)
+  Rendered shared/_foot_home.html.erb (0.8ms)
+  Rendered pages/home_test.html.erb within layouts/application (18.4ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 216ms (Views: 209.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 17:19:44 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (6.2ms)
+  Rendered shared/_foot_home.html.erb (1.2ms)
+  Rendered pages/home_test.html.erb within layouts/application (22.3ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 99ms (Views: 93.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-06-23 17:19:56 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (6.2ms)
+  Rendered shared/_foot_home.html.erb (1.0ms)
+  Rendered pages/home.html.erb within layouts/application (20.4ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 91ms (Views: 85.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-06-23 17:22:07 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (8.2ms)
+  Rendered shared/_foot_home.html.erb (1.0ms)
+  Rendered pages/home.html.erb within layouts/application (20.4ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 96ms (Views: 91.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 17:22:37 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_foot.html.erb (0.4ms)
+  Rendered pages/about_me.html.erb within layouts/application (6.5ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 46ms (Views: 43.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 17:23:27 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (8.6ms)
+  Rendered shared/_foot_home.html.erb (0.9ms)
+  Rendered pages/about_me.html.erb within layouts/application (20.3ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 111ms (Views: 104.4ms | ActiveRecord: 0.0ms)
+
+

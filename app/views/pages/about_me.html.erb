@@ -1,13 +1,12 @@
 <%= render 'shared/navbar' %>
 
-<div class="container d-flex">
 
-  <div class="about_text">
-
-    <div class="centered container">
+  <div class="container m-0 p-0">
+    <div class="row">
+      <div class="col-sm-12 col-lg-5 mb-3 p-0 ml-5 mr-5 pad about_text">
       <div class="m-3 mt-5">
 
-        <h1 class="montserrat mb-3">About me</h1>
+        <h1 class="montserrat mb-3 ">About me</h1>
 <div class="montserrat">
 
         <p>I am a junior web developer based in Amsterdam.</p>
@@ -28,26 +27,30 @@
         Heroku
 </div>
       </div>
-    </div>
+      </div>
 
-  </div>
 
-<div class="halfscreen">
 
-  <div class="ava text-center">
+  <div class="col-sm-12 col-lg-4 ml-5">
+  <div class="ava">
     <!-- <div class="image"> -->
 
       <!-- <img src="../../assets/ashanti.png" alt=""> -->
-<%= cl_image_tag("ashanti") %>
+<%= cl_image_tag("ashanti2") %>
     <!-- </div> -->
   </div>
+
+
+
+      </div>
+    </div>
+  </div>
+
+
+
+<div class="">
+  <%= render 'shared/foot_home' %>
 </div>
-
-</div>
-
-<%= render 'shared/foot' %>
-
-
 
 
 
