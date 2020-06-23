@@ -20662,3 +20662,1305 @@ Processing by ContactController#contact as HTML
 Completed 200 OK in 83ms (Views: 82.5ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/about_me" for ::1 at 2020-06-19 19:40:01 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (6.2ms)
+  Rendered shared/_foot.html.erb (1.0ms)
+  Rendered pages/about_me.html.erb within layouts/application (25.2ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 115ms (Views: 109.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for ::1 at 2020-06-19 19:40:05 +0200
+Processing by ContactController#contact as HTML
+  Rendering contact/contact.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.0ms)
+  Rendered contact/_flash.html.erb (1.2ms)
+  Rendered contact/_contact_form.html.erb (7.5ms)
+  Rendered contact/contact.html.erb within layouts/application (12.1ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 95ms (Views: 92.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-19 19:40:15 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (10.0ms)
+  Rendered shared/_foot.html.erb (3.7ms)
+  Rendered pages/about_me.html.erb within layouts/application (19.5ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 113ms (Views: 111.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-06-19 19:40:16 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.1ms)
+  Rendered shared/_foot_home.html.erb (0.6ms)
+  Rendered pages/home.html.erb within layouts/application (7.0ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 41ms (Views: 39.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-06-19 19:42:07 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (18.4ms)
+  Rendered shared/_foot_home.html.erb (4.3ms)
+  Rendered pages/home.html.erb within layouts/application (40.3ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 115ms (Views: 109.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-06-19 19:42:08 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.9ms)
+  Rendered shared/_foot_home.html.erb (0.8ms)
+  Rendered pages/home.html.erb within layouts/application (7.0ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 56ms (Views: 54.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-06-19 19:42:21 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_foot_home.html.erb (0.6ms)
+  Rendered pages/home.html.erb within layouts/application (7.5ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 52ms (Views: 50.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-06-19 19:42:30 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (8.9ms)
+  Rendered shared/_foot_home.html.erb (1.3ms)
+  Rendered pages/home.html.erb within layouts/application (25.5ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 112ms (Views: 106.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-06-19 19:42:51 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (5.3ms)
+  Rendered shared/_foot_home.html.erb (1.4ms)
+  Rendered pages/home.html.erb within layouts/application (558.0ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 954ms (Views: 951.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-06-19 19:42:52 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (3.6ms)
+  Rendered shared/_foot_home.html.erb (2.0ms)
+  Rendered pages/home.html.erb within layouts/application (11.7ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 64ms (Views: 62.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-06-19 19:44:35 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (5.4ms)
+  Rendered shared/_foot_home.html.erb (2.6ms)
+  Rendered pages/home.html.erb within layouts/application (25.6ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 169ms (Views: 159.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-06-19 19:49:19 +0200
+Processing by PagesController#home as HTML
+Started GET "/" for ::1 at 2020-06-19 19:49:20 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (5.3ms)
+  Rendered shared/_navbar.html.erb (1.0ms)
+  Rendered shared/_foot_home.html.erb (1.1ms)
+  Rendered shared/_foot_home.html.erb (0.2ms)
+  Rendered pages/home.html.erb within layouts/application (25.5ms)
+  Rendered pages/home.html.erb within layouts/application (19.4ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 162ms (Views: 156.1ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 153ms (Views: 150.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-06-19 19:58:51 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (6.2ms)
+  Rendered shared/_foot_home.html.erb (0.9ms)
+  Rendered pages/home.html.erb within layouts/application (17.8ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2538ms (Views: 2531.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-06-19 19:58:54 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_foot_home.html.erb (1.1ms)
+  Rendered pages/home.html.erb within layouts/application (7.9ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 51ms (Views: 49.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-06-19 20:00:15 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.3ms)
+  Rendered shared/_foot_home.html.erb (0.5ms)
+  Rendered pages/home.html.erb within layouts/application (8.8ms)
+Started GET "/" for ::1 at 2020-06-19 20:00:16 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (7.7ms)
+  Rendered shared/_foot_home.html.erb (1.0ms)
+  Rendered pages/home.html.erb within layouts/application (25.1ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2174ms (Views: 2171.7ms | ActiveRecord: 0.0ms)
+
+
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 133ms (Views: 132.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-06-19 20:01:33 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.9ms)
+  Rendered shared/_foot_home.html.erb (0.5ms)
+  Rendered pages/home.html.erb within layouts/application (7.8ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 61ms (Views: 59.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-06-19 20:02:28 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (4.3ms)
+  Rendered shared/_foot_home.html.erb (1.7ms)
+  Rendered pages/home.html.erb within layouts/application (19.5ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 169ms (Views: 165.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-06-19 20:05:00 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+Started GET "/" for ::1 at 2020-06-19 20:05:01 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (7.2ms)
+  Rendered shared/_navbar.html.erb (563.1ms)
+  Rendered shared/_foot_home.html.erb (1.8ms)
+  Rendered shared/_foot_home.html.erb (370.9ms)
+  Rendered pages/home.html.erb within layouts/application (1967.8ms)
+  Rendered pages/home.html.erb within layouts/application (2043.6ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 3152ms (Views: 2890.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2265ms (Views: 2263.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-06-19 20:05:03 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (4.3ms)
+  Rendered shared/_foot_home.html.erb (1.6ms)
+  Rendered pages/home.html.erb within layouts/application (12.8ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 59ms (Views: 57.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-06-19 20:09:09 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (5.6ms)
+  Rendered shared/_foot_home.html.erb (2.4ms)
+  Rendered pages/home.html.erb within layouts/application (23.8ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 167ms (Views: 160.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-06-19 20:09:34 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.0ms)
+  Rendered shared/_foot_home.html.erb (0.5ms)
+  Rendered pages/home.html.erb within layouts/application (7.2ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 51ms (Views: 50.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-19 20:10:00 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.9ms)
+  Rendered shared/_foot.html.erb (0.5ms)
+  Rendered pages/home_test.html.erb within layouts/application (8.3ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 57ms (Views: 54.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-19 20:12:02 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (7.0ms)
+  Rendered shared/_foot_home.html.erb (1.5ms)
+  Rendered pages/home_test.html.erb within layouts/application (30.9ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 121ms (Views: 116.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-19 20:13:09 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.3ms)
+  Rendered shared/_foot_home.html.erb (0.6ms)
+  Rendered pages/home_test.html.erb within layouts/application (7.9ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 97ms (Views: 95.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-19 20:14:21 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (8.5ms)
+  Rendered shared/_foot_home.html.erb (0.9ms)
+  Rendered pages/home_test.html.erb within layouts/application (21.3ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 113ms (Views: 107.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-19 20:14:32 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (3.9ms)
+  Rendered shared/_foot_home.html.erb (0.7ms)
+  Rendered pages/home_test.html.erb within layouts/application (10.3ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 56ms (Views: 54.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-19 20:14:43 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_foot_home.html.erb (0.5ms)
+  Rendered pages/home_test.html.erb within layouts/application (7.6ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 82ms (Views: 79.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-19 20:14:50 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.0ms)
+  Rendered shared/_foot_home.html.erb (0.4ms)
+  Rendered pages/home_test.html.erb within layouts/application (5.6ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 41ms (Views: 40.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-19 20:16:16 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (11.4ms)
+  Rendered shared/_foot_home.html.erb (1.2ms)
+  Rendered pages/home_test.html.erb within layouts/application (113.7ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 170ms (Views: 163.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-19 20:16:58 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (5.8ms)
+  Rendered shared/_foot_home.html.erb (1.0ms)
+  Rendered pages/home_test.html.erb within layouts/application (550.9ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 956ms (Views: 954.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-19 20:17:07 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (4.2ms)
+  Rendered shared/_foot_home.html.erb (0.8ms)
+  Rendered pages/home_test.html.erb within layouts/application (12.8ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 56ms (Views: 55.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-06-23 14:05:23 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (3.4ms)
+  Rendered shared/_foot_home.html.erb (0.5ms)
+  Rendered pages/home.html.erb within layouts/application (16.6ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 505ms (Views: 502.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 14:05:38 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_foot_home.html.erb (0.4ms)
+  Rendered pages/home_test.html.erb within layouts/application (5.9ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 50ms (Views: 47.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 14:08:08 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.0ms)
+  Rendered shared/_foot_home.html.erb (0.5ms)
+  Rendered pages/home_test.html.erb within layouts/application (6.5ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 53ms (Views: 52.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 14:08:38 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (10.4ms)
+  Rendered shared/_foot_home.html.erb (0.7ms)
+  Rendered pages/home_test.html.erb within layouts/application (23.1ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 127ms (Views: 118.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 14:08:56 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_foot_home.html.erb (0.5ms)
+  Rendered pages/home_test.html.erb within layouts/application (5.5ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 33ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 14:14:06 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (6.3ms)
+  Rendered shared/_foot_home.html.erb (1.0ms)
+  Rendered pages/home_test.html.erb within layouts/application (17.1ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 98ms (Views: 92.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 14:15:52 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.9ms)
+  Rendered shared/_foot_home.html.erb (1.2ms)
+  Rendered pages/home_test.html.erb within layouts/application (8.9ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2825ms (Views: 2824.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 14:16:51 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (8.0ms)
+  Rendered shared/_foot_home.html.erb (1.9ms)
+  Rendered pages/home_test.html.erb within layouts/application (23.8ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 105ms (Views: 99.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 14:18:46 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (7.4ms)
+  Rendered shared/_foot_home.html.erb (1.1ms)
+  Rendered pages/home_test.html.erb within layouts/application (21.4ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 136ms (Views: 134.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 14:21:08 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (8.1ms)
+  Rendered shared/_foot_home.html.erb (0.9ms)
+  Rendered pages/home_test.html.erb within layouts/application (23.4ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 102ms (Views: 95.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 14:21:46 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.0ms)
+  Rendered shared/_foot_home.html.erb (1.1ms)
+  Rendered pages/home_test.html.erb within layouts/application (8.1ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 47ms (Views: 46.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 14:22:07 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.9ms)
+  Rendered shared/_foot_home.html.erb (0.4ms)
+  Rendered pages/home_test.html.erb within layouts/application (6.1ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 40ms (Views: 39.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 14:22:22 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_foot_home.html.erb (0.4ms)
+  Rendered pages/home_test.html.erb within layouts/application (4.9ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 36ms (Views: 35.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 14:22:50 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.7ms)
+  Rendered shared/_foot_home.html.erb (0.5ms)
+  Rendered pages/home_test.html.erb within layouts/application (7.2ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2951ms (Views: 2949.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 14:23:30 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_foot_home.html.erb (0.5ms)
+  Rendered pages/home_test.html.erb within layouts/application (5.5ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 59ms (Views: 58.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 14:25:40 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_foot_home.html.erb (0.4ms)
+  Rendered pages/home_test.html.erb within layouts/application (6.3ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 45ms (Views: 44.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 14:27:30 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.5ms)
+  Rendered shared/_foot_home.html.erb (0.5ms)
+  Rendered pages/home_test.html.erb within layouts/application (8.6ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 68ms (Views: 66.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 14:28:07 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_foot_home.html.erb (0.7ms)
+  Rendered pages/home_test.html.erb within layouts/application (6.2ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8128ms (Views: 8126.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 14:29:23 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_foot_home.html.erb (0.4ms)
+  Rendered pages/home_test.html.erb within layouts/application (5.7ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1837ms (Views: 1835.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 14:30:29 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_foot_home.html.erb (0.4ms)
+  Rendered pages/home_test.html.erb within layouts/application (5.6ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1903ms (Views: 1901.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 14:32:03 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.3ms)
+  Rendered shared/_foot_home.html.erb (0.5ms)
+  Rendered pages/home_test.html.erb within layouts/application (9.1ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 49ms (Views: 47.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 14:33:10 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_foot_home.html.erb (0.4ms)
+  Rendered pages/home_test.html.erb within layouts/application (6.2ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2168ms (Views: 2166.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 14:35:22 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (5.7ms)
+  Rendered shared/_foot_home.html.erb (1.0ms)
+  Rendered pages/home_test.html.erb within layouts/application (22.4ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 173ms (Views: 166.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 14:37:27 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.9ms)
+  Rendered shared/_foot_home.html.erb (0.5ms)
+  Rendered pages/home_test.html.erb within layouts/application (7.4ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 46ms (Views: 44.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 14:37:59 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (13.2ms)
+  Rendered shared/_foot_home.html.erb (1.4ms)
+  Rendered pages/home_test.html.erb within layouts/application (30.5ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2340ms (Views: 2335.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 14:43:50 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (4.8ms)
+  Rendered shared/_foot_home.html.erb (1.1ms)
+  Rendered pages/home_test.html.erb within layouts/application (16.7ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 90ms (Views: 85.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 14:44:18 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (3.2ms)
+  Rendered shared/_foot_home.html.erb (0.7ms)
+  Rendered pages/home_test.html.erb within layouts/application (9.5ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 708ms (Views: 706.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 14:44:29 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_foot_home.html.erb (0.5ms)
+  Rendered pages/home_test.html.erb within layouts/application (5.7ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 43ms (Views: 41.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 14:44:35 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.9ms)
+  Rendered shared/_foot_home.html.erb (0.6ms)
+  Rendered pages/home_test.html.erb within layouts/application (6.3ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 42ms (Views: 41.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 14:44:55 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_foot_home.html.erb (0.5ms)
+  Rendered pages/home_test.html.erb within layouts/application (4.8ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 33ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 14:45:25 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_foot_home.html.erb (0.6ms)
+  Rendered pages/home_test.html.erb within layouts/application (7.1ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 44ms (Views: 42.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 14:45:38 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_foot_home.html.erb (0.5ms)
+  Rendered pages/home_test.html.erb within layouts/application (5.4ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 49ms (Views: 47.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 14:46:03 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_foot_home.html.erb (0.5ms)
+  Rendered pages/home_test.html.erb within layouts/application (6.7ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 42ms (Views: 40.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 14:46:33 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.9ms)
+  Rendered shared/_foot_home.html.erb (0.5ms)
+  Rendered pages/home_test.html.erb within layouts/application (6.6ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 50ms (Views: 47.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 14:46:43 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_foot_home.html.erb (0.4ms)
+  Rendered pages/home_test.html.erb within layouts/application (5.0ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 39ms (Views: 37.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 14:47:14 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (3.5ms)
+  Rendered shared/_foot_home.html.erb (0.5ms)
+  Rendered pages/home_test.html.erb within layouts/application (7.8ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 43ms (Views: 41.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 14:47:18 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.3ms)
+  Rendered shared/_foot_home.html.erb (0.8ms)
+  Rendered pages/home_test.html.erb within layouts/application (7.0ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 49ms (Views: 48.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 14:47:42 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (8.8ms)
+  Rendered shared/_foot_home.html.erb (0.5ms)
+  Rendered pages/home_test.html.erb within layouts/application (18.1ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 120ms (Views: 118.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 14:47:58 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.2ms)
+  Rendered shared/_foot_home.html.erb (0.5ms)
+  Rendered pages/home_test.html.erb within layouts/application (8.6ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 45ms (Views: 43.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 14:48:23 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_foot_home.html.erb (0.7ms)
+  Rendered pages/home_test.html.erb within layouts/application (6.5ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 48ms (Views: 46.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 14:48:33 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_foot_home.html.erb (0.4ms)
+  Rendered pages/home_test.html.erb within layouts/application (5.9ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 42ms (Views: 41.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-06-23 14:49:02 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_foot_home.html.erb (0.5ms)
+  Rendered pages/home.html.erb within layouts/application (6.4ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 55ms (Views: 53.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 14:49:10 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_foot_home.html.erb (0.6ms)
+  Rendered pages/home_test.html.erb within layouts/application (5.5ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 35ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 14:49:31 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_foot_home.html.erb (0.9ms)
+  Rendered pages/home_test.html.erb within layouts/application (7.7ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 55ms (Views: 54.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 14:49:51 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_foot_home.html.erb (0.4ms)
+  Rendered pages/home_test.html.erb within layouts/application (5.7ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 43ms (Views: 42.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 14:50:19 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.7ms)
+  Rendered shared/_foot_home.html.erb (0.5ms)
+  Rendered pages/home_test.html.erb within layouts/application (7.6ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 55ms (Views: 54.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 14:51:12 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_foot_home.html.erb (0.5ms)
+  Rendered pages/home_test.html.erb within layouts/application (7.2ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 41ms (Views: 40.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 14:51:18 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_foot_home.html.erb (0.6ms)
+  Rendered pages/home_test.html.erb within layouts/application (15.6ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 44ms (Views: 43.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 14:51:36 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.9ms)
+  Rendered shared/_foot_home.html.erb (1.0ms)
+  Rendered pages/home_test.html.erb within layouts/application (6.6ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2233ms (Views: 2231.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 14:52:02 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (8.1ms)
+  Rendered shared/_foot_home.html.erb (1.2ms)
+  Rendered pages/home_test.html.erb within layouts/application (26.7ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2222ms (Views: 2218.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-06-23 14:52:36 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.1ms)
+  Rendered shared/_foot_home.html.erb (0.6ms)
+  Rendered pages/home.html.erb within layouts/application (9.2ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 72ms (Views: 69.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 14:52:37 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.2ms)
+  Rendered shared/_foot_home.html.erb (0.5ms)
+  Rendered pages/home_test.html.erb within layouts/application (6.3ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 36ms (Views: 34.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 14:53:01 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.0ms)
+  Rendered shared/_foot_home.html.erb (0.6ms)
+  Rendered pages/home_test.html.erb within layouts/application (219.3ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4624ms (Views: 4436.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 14:57:18 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (3.1ms)
+  Rendered shared/_foot_home.html.erb (1.0ms)
+  Rendered pages/home_test.html.erb within layouts/application (13.9ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 3778ms (Views: 3773.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 15:01:27 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.5ms)
+  Rendered shared/_foot_home.html.erb (1.1ms)
+  Rendered pages/home_test.html.erb within layouts/application (10.6ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 48ms (Views: 47.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 15:06:46 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (8.5ms)
+  Rendered shared/_foot_home.html.erb (0.8ms)
+  Rendered pages/home_test.html.erb within layouts/application (21.0ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 146ms (Views: 142.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 15:07:33 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.9ms)
+  Rendered shared/_foot_home.html.erb (1.1ms)
+  Rendered pages/home_test.html.erb within layouts/application (7.7ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 47ms (Views: 46.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 15:08:31 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_foot_home.html.erb (0.4ms)
+  Rendered pages/home_test.html.erb within layouts/application (6.3ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 46ms (Views: 44.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 15:10:14 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (11.2ms)
+  Rendered shared/_foot_home.html.erb (1.2ms)
+  Rendered pages/home_test.html.erb within layouts/application (25.7ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 113ms (Views: 107.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 15:10:52 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_foot_home.html.erb (0.4ms)
+  Rendered pages/home_test.html.erb within layouts/application (5.5ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 42ms (Views: 41.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 15:16:20 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (4.9ms)
+  Rendered shared/_foot_home.html.erb (0.8ms)
+  Rendered pages/home_test.html.erb within layouts/application (15.9ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 183ms (Views: 175.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 15:17:20 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.3ms)
+  Rendered shared/_foot_home.html.erb (0.7ms)
+  Rendered pages/home_test.html.erb within layouts/application (9.0ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2395ms (Views: 2393.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 15:21:06 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (13.0ms)
+  Rendered shared/_foot_home.html.erb (1.4ms)
+  Rendered pages/home_test.html.erb within layouts/application (36.2ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6844ms (Views: 6839.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 15:22:33 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (24.8ms)
+  Rendered shared/_foot_home.html.erb (1.4ms)
+  Rendered pages/home_test.html.erb within layouts/application (38.2ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4962ms (Views: 4955.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 15:22:43 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.1ms)
+  Rendered shared/_foot_home.html.erb (0.5ms)
+  Rendered pages/home_test.html.erb within layouts/application (6.8ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 37ms (Views: 35.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 15:23:04 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (3.1ms)
+  Rendered shared/_foot_home.html.erb (0.7ms)
+  Rendered pages/home_test.html.erb within layouts/application (8.8ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2117ms (Views: 2115.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 15:23:15 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.0ms)
+  Rendered shared/_foot_home.html.erb (1.0ms)
+  Rendered pages/home_test.html.erb within layouts/application (7.3ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 50ms (Views: 48.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-06-23 15:23:22 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_foot_home.html.erb (0.4ms)
+  Rendered pages/home.html.erb within layouts/application (4.7ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 39ms (Views: 34.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 15:23:23 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_foot_home.html.erb (0.4ms)
+  Rendered pages/home_test.html.erb within layouts/application (4.5ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 35ms (Views: 34.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 15:23:35 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.2ms)
+  Rendered shared/_foot_home.html.erb (0.7ms)
+  Rendered pages/home_test.html.erb within layouts/application (7.2ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2246ms (Views: 2244.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 15:23:45 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (3.2ms)
+  Rendered shared/_foot_home.html.erb (1.7ms)
+  Rendered pages/home_test.html.erb within layouts/application (10.5ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1875ms (Views: 1873.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 15:26:30 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (5.1ms)
+  Rendered shared/_foot_home.html.erb (1.7ms)
+  Rendered pages/home_test.html.erb within layouts/application (17.8ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 93ms (Views: 88.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 15:28:57 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (6.1ms)
+  Rendered shared/_foot_home.html.erb (1.0ms)
+  Rendered pages/home_test.html.erb within layouts/application (23.6ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 98ms (Views: 93.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 15:30:01 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.3ms)
+  Rendered shared/_foot_home.html.erb (0.6ms)
+  Rendered pages/home_test.html.erb within layouts/application (9.6ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 63ms (Views: 62.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 15:30:10 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_foot_home.html.erb (0.4ms)
+  Rendered pages/home_test.html.erb within layouts/application (5.2ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 48ms (Views: 47.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 15:30:35 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_foot_home.html.erb (0.4ms)
+  Rendered pages/home_test.html.erb within layouts/application (5.8ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 46ms (Views: 44.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 15:30:44 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.2ms)
+  Rendered shared/_foot_home.html.erb (0.5ms)
+  Rendered pages/home_test.html.erb within layouts/application (6.2ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 49ms (Views: 47.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 15:32:00 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (7.7ms)
+  Rendered shared/_foot_home.html.erb (1.2ms)
+  Rendered pages/home_test.html.erb within layouts/application (22.9ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2595ms (Views: 2581.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 15:34:41 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (6.7ms)
+  Rendered shared/_foot_home.html.erb (4.5ms)
+  Rendered pages/home_test.html.erb within layouts/application (32.4ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 119ms (Views: 112.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 15:37:15 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.1ms)
+  Rendered shared/_foot_home.html.erb (1.0ms)
+  Rendered pages/home_test.html.erb within layouts/application (8.3ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2436ms (Views: 2434.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 15:37:57 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.1ms)
+  Rendered shared/_foot_home.html.erb (0.5ms)
+  Rendered pages/home_test.html.erb within layouts/application (7.4ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2213ms (Views: 2210.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 15:38:18 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_foot_home.html.erb (0.7ms)
+  Rendered pages/home_test.html.erb within layouts/application (5.6ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1884ms (Views: 1883.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 15:40:06 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (6.7ms)
+  Rendered shared/_foot_home.html.erb (0.9ms)
+  Rendered pages/home_test.html.erb within layouts/application (18.9ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 80ms (Views: 75.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 15:47:59 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (5.0ms)
+  Rendered shared/_foot_home.html.erb (0.7ms)
+  Rendered pages/home_test.html.erb within layouts/application (15.2ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2475ms (Views: 2471.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 15:48:27 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.2ms)
+  Rendered shared/_foot_home.html.erb (0.4ms)
+  Rendered pages/home_test.html.erb within layouts/application (6.9ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 47ms (Views: 46.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 15:48:50 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_foot_home.html.erb (0.5ms)
+  Rendered pages/home_test.html.erb within layouts/application (6.5ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 43ms (Views: 41.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 15:49:18 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.1ms)
+  Rendered shared/_foot_home.html.erb (0.5ms)
+  Rendered pages/home_test.html.erb within layouts/application (7.1ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 174ms (Views: 172.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 15:50:06 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.9ms)
+  Rendered shared/_foot_home.html.erb (0.5ms)
+  Rendered pages/home_test.html.erb within layouts/application (5.7ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 33ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 15:50:16 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_foot_home.html.erb (0.5ms)
+  Rendered pages/home_test.html.erb within layouts/application (5.2ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 37ms (Views: 36.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 15:50:29 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (3.6ms)
+  Rendered shared/_foot_home.html.erb (1.2ms)
+  Rendered pages/home_test.html.erb within layouts/application (10.0ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 115ms (Views: 113.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 15:51:18 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (6.1ms)
+  Rendered shared/_foot_home.html.erb (1.7ms)
+  Rendered pages/home_test.html.erb within layouts/application (13.6ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 97ms (Views: 96.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 15:52:19 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_foot_home.html.erb (0.6ms)
+  Rendered pages/home_test.html.erb within layouts/application (6.7ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 46ms (Views: 45.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_test" for ::1 at 2020-06-23 15:53:23 +0200
+Processing by PagesController#home_test as HTML
+  Rendering pages/home_test.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.8ms)
+  Rendered shared/_foot_home.html.erb (0.5ms)
+  Rendered pages/home_test.html.erb within layouts/application (305.3ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8516ms (Views: 8333.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 15:55:50 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (3.7ms)
+  Rendered shared/_foot.html.erb (0.6ms)
+  Rendered pages/about_me.html.erb within layouts/application (9.4ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 52ms (Views: 48.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for ::1 at 2020-06-23 15:56:30 +0200
+Processing by ContactController#contact as HTML
+  Rendering contact/contact.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.1ms)
+  Rendered contact/_flash.html.erb (1.1ms)
+  Rendered contact/_contact_form.html.erb (39.7ms)
+  Rendered contact/contact.html.erb within layouts/application (46.1ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 107ms (Views: 88.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-06-23 15:56:37 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.9ms)
+  Rendered shared/_foot.html.erb (0.8ms)
+  Rendered pages/about_me.html.erb within layouts/application (5.9ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 45ms (Views: 40.3ms | ActiveRecord: 0.0ms)
+
+

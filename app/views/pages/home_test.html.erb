@@ -1,55 +1,97 @@
 
-<div class="background">
+<div class="home_background">
 
-<%= render 'shared/navbar' %>
-<div class="container margintop_AR">
-  <div class="row myname">
-    <div class="col-8">
+  <%= render 'shared/navbar' %>
+  <div class="container margintop_AR">
+    <div class="row myname">
+      <div class="col-8 mb-5">
 
-    <h1 class="name_font home_text" >Ashanti Richardson</h1>
-    <h3 class="home_text ml3" >Full Stack Web Developer</h3>
-    <h6 class="home_text ml4">
-      <span class="letters letters-3"> (junior)</span>
-    </h6>
+        <h1 class="name_font home_text" >Ashanti Richardson</h1>
+        <h3 class="home_text ml3" >Full Stack Web Developer</h3>
+        <h6 class="home_text ml4">
+          <span class="letters letters-3"> (junior)</span>
+        </h6>
+      </div>
     </div>
+  </div>
 
+<div class="flex projects">
+  <h1 class="name_font m-auto">projects</h1>
+</div>
+<!-- <div class="container">
+  <div class="intro">
+    <p>introduction</p>
+  </div>
+</div> -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-lg-6 mb-3 pad">
+            <%= cl_image_tag("packed", class:"col-sm-12 img_homer mb-5 pad") %>
+      </div>
+      <div class="col-sm-12 col-lg-6 mb-5 pl-5">
+                  <h5 class="montserrat mb-3 pad">PackedRight:</h5>
+
+            <p class="montserrat">PackedRight is an Uber inspired platform but then it focusses on parcels alone. Users can log in and make a profile. They can see if there are suitable drivers in their area and book a ride for parcels of any kind. They can follow their selected driver as they approach and chat with them to ask questions. The driver can update the status of a package with just one click. Users and drivers can give each other ratings after the ride is done.</p>
+      </div>
     </div>
   </div>
 
-<div class="grid">
-  <div>
-    <img class="img_home column" src="../../assets/packed.png" alt="something">
+    <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-lg-6 mb-3 pad">
+            <%= cl_image_tag("rentart", class:"col-sm-12 img_homer mb-5 pad") %>
+      </div>
+      <div class="col-sm-12 col-lg-6 mb-5 pl-5">
+<h5 class="montserrat mb-3"h5>Rentart:</h5>
+          <p class="montserrat">Rentart is a platform where people can rent high-end tranport vehicles. On the platform people can add a profile for themselvesa as a user or add their own items that they would like to rent out. The categories available are 'helicopters', 'cars', 'planes' and 'other'. Users can leave reviews and give stars for their experiences. They can manage their reservations and message each other.  </p>
+           </div>
+    </div>
   </div>
-  <div>
-    <img class="img_home column" src="../../assets/rentart.png" alt="something">
+
+    <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-lg-6 mb-3 pad">
+          <%= cl_image_tag("cocktails_app", class:"col-sm-12 img_homer mb-5 pad") %>
+      </div>
+      <div class="col-sm-12 col-lg-6 pl-5">
+ <h5 class="montserrat mb-3"h5>Cocktails:</h5>
+          <p class="montserrat">Molo Cocktails is a site where you brows for your favorite classic cocktails but also add your own creations with pictures. </p>
+
+      </div>
+    </div>
   </div>
-  <div>
-    <img class="img_home column" src="../../assets/cocktailsinval.png" alt="something">
+
+    <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-lg-6 mb-3 pad">
+          <%= cl_image_tag("landing_page", class:"col-sm-12 img_homer mb-5 pad") %>
+      </div>
+      <div class="col-sm-12 col-lg-6 mb-5 pl-5">
+<h5 class="montserrat mb-3"h5>Landing Page:</h5>
+          <p class="montserrat">A basic landing page</p>
+              </div>
+    </div>
   </div>
-  <div>
-    <img class="img_home column" src="../../assets/landing page.png" alt="something">
+
+
+
+  <div class="">
+
   </div>
 </div>
 
+<div class="">
+  <%= render 'shared/foot_home' %>
 </div>
-
-<%= render 'shared/foot' %>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-
-<!-- <h1 class="ml4">
-  <span class="letters letters-1">Ready</span>
-  <span class="letters letters-2">Set</span>
-  <span class="letters letters-3">Go!</span>
-</h1> -->
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 
 <script type="text/javascript">
-var textWrapper = document.querySelector('.ml3');
-textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+  var textWrapper = document.querySelector('.ml3');
+  textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
-anime.timeline({loop: true})
+  anime.timeline({loop: true})
   .add({
     targets: '.ml3 .letter',
     opacity: [0,1],
@@ -66,14 +108,14 @@ anime.timeline({loop: true})
 
   //////////////////////
   var ml4 = {};
-ml4.opacityIn = [0,1];
-ml4.scaleIn = [0.2, 1];
-ml4.scaleOut = 3;
-ml4.durationIn = 800;
-ml4.durationOut = 6000;
-ml4.delay = 500;
+  ml4.opacityIn = [0,1];
+  ml4.scaleIn = [0.2, 1];
+  ml4.scaleOut = 3;
+  ml4.durationIn = 800;
+  ml4.durationOut = 6000;
+  ml4.delay = 500;
 
-anime.timeline({loop: true})
+  anime.timeline({loop: true})
   .add({
     targets: '.ml4 .letters-1',
     opacity: ml4.opacityIn,

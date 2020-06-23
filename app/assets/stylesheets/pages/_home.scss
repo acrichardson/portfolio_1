@@ -1,10 +1,13 @@
 .flex {
   display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
   /*justify-content: space-between;*/
 }
 
 li {
   list-style-type: none;
+  // width: 45vw;
 }
 
 .half {
@@ -18,12 +21,50 @@ li {
   // height: 93vh;
   background-size: cover;
   padding-bottom: 20px;
+  // width: 105vw;
 }// Specific CSS for your home-page
 
 .img_homet {
   width: 45vw;
   transition-duration: 1s;
 }
+
+
+
+
+
+
+
+.img_homer {
+  // width: 45vw;
+  transition-duration: 1s;
+  object-fit: cover;
+  width: 100vw;
+}
+
+.img_homer:hover {
+  // width: 45vw;
+  transition-duration: 1s;
+  // object-fit: cover;
+  width: 80vw;
+}
+
+.col-sm-12 {
+  // width: 100vw;
+}
+
+body {
+  width: 100vw;
+  padding: 0px;
+  margin: 0px;
+}
+
+.pad {
+  padding: 0px;
+}
+
+
+
 
 .img_homet:hover {
   width: 70vw;
