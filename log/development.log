@@ -22735,3 +22735,13 @@ Processing by PagesController#about_me as HTML
 Completed 200 OK in 111ms (Views: 104.4ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/about_me" for ::1 at 2020-06-23 17:27:40 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (5.2ms)
+  Rendered shared/_foot.html.erb (1.0ms)
+  Rendered pages/about_me.html.erb within layouts/application (15.7ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 106ms (Views: 100.2ms | ActiveRecord: 0.0ms)
+
+
