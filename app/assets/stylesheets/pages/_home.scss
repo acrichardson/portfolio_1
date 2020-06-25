@@ -1,87 +1,87 @@
-.flex {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0px;
-  /*justify-content: space-between;*/
-}
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    /*justify-content: space-between;*/
+  }
 
-li {
-  list-style-type: none;
-  // width: 45vw;
-}
+  li {
+    list-style-type: none;
+    // width: 45vw;
+  }
 
-.half {
-  width: 45vw;
-}
+  .half {
+    width: 45vw;
+  }
 
-.home_background {
-  // background-image: url(color.jpg);
-  background-color: black;
-  color: white;
-  // height: 93vh;
-  background-size: cover;
-  padding-bottom: 20px;
-  // width: 105vw;
-}// Specific CSS for your home-page
+  .home_background {
+    // background-image: url(color.jpg);
+    background-color: black;
+    color: white;
+    // height: 93vh;
+    background-size: cover;
+    padding-bottom: 20px;
+    // width: 105vw;
+  }// Specific CSS for your home-page
 
-.img_homet {
-  width: 45vw;
-  transition-duration: 1s;
-}
-
-
+  .img_homet {
+    width: 45vw;
+    transition-duration: 1s;
+  }
 
 
 
 
 
-.img_homer {
-  // width: 45vw;
-  transition-duration: 1s;
-  object-fit: cover;
-  width: 100vw;
-}
-
-.img_homer:hover {
-  // width: 45vw;
-  transition-duration: 1s;
-  // object-fit: cover;
-  width: 80vw;
-}
-
-.col-sm-12 {
-  // width: 100vw;
-}
-
-body {
-  width: 100vw;
-  padding: 0px;
-  margin: 0px;
-}
-
-.pad {
-  padding: 0px;
-}
 
 
+  .img_homer {
+    // width: 45vw;
+    transition-duration: 1s;
+    object-fit: cover;
+    width: 100vw;
+  }
+
+  .img_homer:hover {
+    // width: 45vw;
+    transition-duration: 1s;
+    // object-fit: cover;
+    width: 80vw;
+  }
+
+  .col-sm-12 {
+    // width: 100vw;
+  }
+
+  body {
+    width: 100vw;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .pad {
+    padding: 0px;
+  }
 
 
-.img_homet:hover {
-  width: 70vw;
-}
 
-.description {
-  align-items: flex-start;
-  margin-left: 5vw;
-  margin-right: 5vw;
-}
 
-.intro {
-  background-color: white;
-  width: 50vw;
-  height: 25vw;
-  color: black;
-  margin: auto;
-  margin-bottom: 5vh;
-  box-decoration-break: box-shadow;
-}
+  .img_homet:hover {
+    width: 70vw;
+  }
+
+  .description {
+    align-items: flex-start;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+  .intro {
+    background-color: white;
+    width: 50vw;
+    height: 25vw;
+    color: black;
+    margin: auto;
+    margin-bottom: 5vh;
+    box-decoration-break: box-shadow;
+  }
