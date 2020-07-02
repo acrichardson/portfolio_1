@@ -44,9 +44,11 @@
 
   .img_homer:hover {
     // width: 45vw;
-    // transition-duration: 1s;
+    transition-duration: 1s;
     // object-fit: cover;
-    // width: 80vw;
+    width: 150vw;
+    height: auto;
+    // display: none;
   }
 
   .col-sm-12 {
