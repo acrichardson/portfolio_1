@@ -23431,3 +23431,483 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 50ms (Views: 48.4ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2020-07-19 17:01:36 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.2ms)
+  Rendered shared/_foot_home.html.erb (0.5ms)
+  Rendered pages/home.html.erb within layouts/application (14.5ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 285ms (Views: 282.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-07-19 17:01:55 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.6ms)
+  Rendered shared/_foot_home.html.erb (0.5ms)
+  Rendered pages/about_me.html.erb within layouts/application (7.3ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 153ms (Views: 150.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for ::1 at 2020-07-19 17:01:59 +0200
+Processing by ContactController#contact as HTML
+  Rendering contact/contact.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.3ms)
+  Rendered contact/_flash.html.erb (0.7ms)
+  Rendered contact/_contact_form.html.erb (19.3ms)
+  Rendered contact/contact.html.erb within layouts/application (25.2ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 89ms (Views: 80.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/contact" for ::1 at 2020-07-19 17:02:06 +0200
+Processing by ContactController#create as JS
+  Parameters: {"utf8"=>"✓", "contact"=>{"name"=>"Ashanti Richardson", "email"=>"ashanti.richardson@gmail.com", "message"=>"mauwmauw", "nickname"=>""}, "commit"=>"Send Message"}
+  Rendering /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/mail_form-1.8.0/lib/mail_form/views/mail_form/contact.erb
+  Rendered /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/mail_form-1.8.0/lib/mail_form/views/mail_form/contact.erb (1.4ms)
+MailForm::Notifier#contact: processed outbound mail in 57.7ms
+Sent mail to ashanti.richardson@gmail.com (202.0ms)
+Date: Sun, 19 Jul 2020 17:02:07 +0200
+From: Ashanti Richardson <ashanti.richardson@gmail.com>
+To: ashanti.richardson@gmail.com
+Message-ID: <5f14606f21426_183393ff97a51326460941@MacBook-Pro-van-Ashanti.local.mail>
+Subject: Contact Form Inquiry
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<h4 style="text-decoration:underline">Contact Form Inquiry</h4>
+
+
+  <p><b>Name:</b>
+  Ashanti Richardson</p>
+
+  <p><b>Email:</b>
+  ashanti.richardson@gmail.com</p>
+
+  <p><b>Message:</b>
+  mauwmauw</p>
+
+
+Completed 500 Internal Server Error in 447ms (ActiveRecord: 0.0ms)
+
+
+  
+Net::SMTPAuthenticationError (535-5.7.8 Username and Password not accepted. Learn more at
+):
+  
+app/controllers/contact_controller.rb:10:in `block in create'
+app/controllers/contact_controller.rb:9:in `create'
+Started POST "/contact" for ::1 at 2020-07-19 17:02:14 +0200
+Processing by ContactController#create as JS
+  Parameters: {"utf8"=>"✓", "contact"=>{"name"=>"Ashanti Richardson", "email"=>"ashanti.richardson@gmail.com", "message"=>"mauwmauw", "nickname"=>""}, "commit"=>"Send Message"}
+  Rendering /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/mail_form-1.8.0/lib/mail_form/views/mail_form/contact.erb
+  Rendered /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/mail_form-1.8.0/lib/mail_form/views/mail_form/contact.erb (1.8ms)
+MailForm::Notifier#contact: processed outbound mail in 10.5ms
+Sent mail to ashanti.richardson@gmail.com (136.8ms)
+Date: Sun, 19 Jul 2020 17:02:14 +0200
+From: Ashanti Richardson <ashanti.richardson@gmail.com>
+To: ashanti.richardson@gmail.com
+Message-ID: <5f146076de721_183393ff97a513408610f4@MacBook-Pro-van-Ashanti.local.mail>
+Subject: Contact Form Inquiry
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<h4 style="text-decoration:underline">Contact Form Inquiry</h4>
+
+
+  <p><b>Name:</b>
+  Ashanti Richardson</p>
+
+  <p><b>Email:</b>
+  ashanti.richardson@gmail.com</p>
+
+  <p><b>Message:</b>
+  mauwmauw</p>
+
+
+Completed 500 Internal Server Error in 149ms (ActiveRecord: 0.0ms)
+
+
+  
+Net::SMTPAuthenticationError (535-5.7.8 Username and Password not accepted. Learn more at
+):
+  
+app/controllers/contact_controller.rb:10:in `block in create'
+app/controllers/contact_controller.rb:9:in `create'
+Started POST "/contact" for ::1 at 2020-07-19 17:02:45 +0200
+Processing by ContactController#create as JS
+  Parameters: {"utf8"=>"✓", "contact"=>{"name"=>"Ashanti Richardson", "email"=>"ashanti.richardson@gmail.com", "message"=>"mauwmauw", "nickname"=>""}, "commit"=>"Send Message"}
+  Rendering /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/mail_form-1.8.0/lib/mail_form/views/mail_form/contact.erb
+  Rendered /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/mail_form-1.8.0/lib/mail_form/views/mail_form/contact.erb (4.2ms)
+MailForm::Notifier#contact: processed outbound mail in 20.2ms
+Sent mail to ashanti.richardson@gmail.com (149.7ms)
+Date: Sun, 19 Jul 2020 17:02:45 +0200
+From: Ashanti Richardson <ashanti.richardson@gmail.com>
+To: ashanti.richardson@gmail.com
+Message-ID: <5f146095f1fe9_183393ff97a51337c61163@MacBook-Pro-van-Ashanti.local.mail>
+Subject: Contact Form Inquiry
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<h4 style="text-decoration:underline">Contact Form Inquiry</h4>
+
+
+  <p><b>Name:</b>
+  Ashanti Richardson</p>
+
+  <p><b>Email:</b>
+  ashanti.richardson@gmail.com</p>
+
+  <p><b>Message:</b>
+  mauwmauw</p>
+
+
+Completed 500 Internal Server Error in 181ms (ActiveRecord: 0.0ms)
+
+
+  
+Net::SMTPAuthenticationError (535-5.7.8 Username and Password not accepted. Learn more at
+):
+  
+app/controllers/contact_controller.rb:10:in `block in create'
+app/controllers/contact_controller.rb:9:in `create'
+Started POST "/contact" for ::1 at 2020-07-19 17:04:48 +0200
+Processing by ContactController#create as JS
+  Parameters: {"utf8"=>"✓", "contact"=>{"name"=>"Ashanti Richardson", "email"=>"ashanti.richardson@gmail.com", "message"=>"mauwmauw", "nickname"=>""}, "commit"=>"Send Message"}
+  Rendering /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/mail_form-1.8.0/lib/mail_form/views/mail_form/contact.erb
+  Rendered /Users/ashantirichardson/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/mail_form-1.8.0/lib/mail_form/views/mail_form/contact.erb (8.4ms)
+MailForm::Notifier#contact: processed outbound mail in 33.4ms
+Sent mail to ashanti.richardson@gmail.com (143.1ms)
+Date: Sun, 19 Jul 2020 17:04:48 +0200
+From: Ashanti Richardson <ashanti.richardson@gmail.com>
+To: ashanti.richardson@gmail.com
+Message-ID: <5f146110810a2_183393ff97a5132f0612cf@MacBook-Pro-van-Ashanti.local.mail>
+Subject: Contact Form Inquiry
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<h4 style="text-decoration:underline">Contact Form Inquiry</h4>
+
+
+  <p><b>Name:</b>
+  Ashanti Richardson</p>
+
+  <p><b>Email:</b>
+  ashanti.richardson@gmail.com</p>
+
+  <p><b>Message:</b>
+  mauwmauw</p>
+
+
+Completed 500 Internal Server Error in 193ms (ActiveRecord: 0.0ms)
+
+
+  
+Net::SMTPAuthenticationError (535-5.7.8 Username and Password not accepted. Learn more at
+):
+  
+app/controllers/contact_controller.rb:10:in `block in create'
+app/controllers/contact_controller.rb:9:in `create'
+Started GET "/" for ::1 at 2020-07-25 20:42:02 +0200
+  
+PG::ConnectionBad (could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+):
+  
+pg (0.21.0) lib/pg.rb:56:in `initialize'
+pg (0.21.0) lib/pg.rb:56:in `new'
+pg (0.21.0) lib/pg.rb:56:in `connect'
+activerecord (5.2.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:692:in `connect'
+activerecord (5.2.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:223:in `initialize'
+activerecord (5.2.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `new'
+activerecord (5.2.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `postgresql_connection'
+activerecord (5.2.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:830:in `new_connection'
+activerecord (5.2.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:874:in `checkout_new_connection'
+activerecord (5.2.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:853:in `try_to_checkout_new_connection'
+activerecord (5.2.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:814:in `acquire_connection'
+activerecord (5.2.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:538:in `checkout'
+activerecord (5.2.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:382:in `connection'
+activerecord (5.2.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:1033:in `retrieve_connection'
+activerecord (5.2.4.1) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.4.1) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.4.1) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+webpacker (5.0.1) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (5.2.4.1) lib/rails/engine.rb:524:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for ::1 at 2020-07-25 20:43:23 +0200
+  
+PG::ConnectionBad (could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+):
+  
+pg (0.21.0) lib/pg.rb:56:in `initialize'
+pg (0.21.0) lib/pg.rb:56:in `new'
+pg (0.21.0) lib/pg.rb:56:in `connect'
+activerecord (5.2.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:692:in `connect'
+activerecord (5.2.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:223:in `initialize'
+activerecord (5.2.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `new'
+activerecord (5.2.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `postgresql_connection'
+activerecord (5.2.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:830:in `new_connection'
+activerecord (5.2.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:874:in `checkout_new_connection'
+activerecord (5.2.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:853:in `try_to_checkout_new_connection'
+activerecord (5.2.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:814:in `acquire_connection'
+activerecord (5.2.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:538:in `checkout'
+activerecord (5.2.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:382:in `connection'
+activerecord (5.2.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:1033:in `retrieve_connection'
+activerecord (5.2.4.1) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.4.1) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.4.1) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+webpacker (5.0.1) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (5.2.4.1) lib/rails/engine.rb:524:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for ::1 at 2020-07-25 20:43:26 +0200
+  
+PG::ConnectionBad (could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+):
+  
+pg (0.21.0) lib/pg.rb:56:in `initialize'
+pg (0.21.0) lib/pg.rb:56:in `new'
+pg (0.21.0) lib/pg.rb:56:in `connect'
+activerecord (5.2.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:692:in `connect'
+activerecord (5.2.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:223:in `initialize'
+activerecord (5.2.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `new'
+activerecord (5.2.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `postgresql_connection'
+activerecord (5.2.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:830:in `new_connection'
+activerecord (5.2.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:874:in `checkout_new_connection'
+activerecord (5.2.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:853:in `try_to_checkout_new_connection'
+activerecord (5.2.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:814:in `acquire_connection'
+activerecord (5.2.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:538:in `checkout'
+activerecord (5.2.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:382:in `connection'
+activerecord (5.2.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:1033:in `retrieve_connection'
+activerecord (5.2.4.1) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.4.1) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.4.1) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+webpacker (5.0.1) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (5.2.4.1) lib/rails/engine.rb:524:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for ::1 at 2020-07-25 20:45:08 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (5.8ms)
+  Rendered shared/_foot_home.html.erb (2.1ms)
+  Rendered pages/home.html.erb within layouts/application (27.5ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 334ms (Views: 331.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-25 10:58:22 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (4.0ms)
+  Rendered shared/_foot_home.html.erb (0.6ms)
+  Rendered pages/home.html.erb within layouts/application (19.8ms)
+DEPRECATION WARNING: autoprefixer-rails was deprected. Migration guide:
+https://github.com/ai/autoprefixer-rails/wiki/Deprecated (called from _app_views_layouts_application_html_erb__2218713300119147129_70095813564400 at /Users/ashantirichardson/code/acrichardson/portfolio_1/app/views/layouts/application.html.erb:9)
+Completed 500 Internal Server Error in 8742ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (dyld: Library not loaded: /usr/local/opt/icu4c/lib/libicui18n.64.dylib
+  Referenced from: /usr/local/bin/node
+  Reason: image not found
+):
+     6:     <title>Ashanti Richardson</title>
+     7:     <%= csrf_meta_tags %>
+     8:     <%= action_cable_meta_tag %>
+     9:     <%= stylesheet_link_tag 'application', media: 'all' %>
+    10:     <link href="https://fonts.googleapis.com/css?family=Codystar&display=swap" rel="stylesheet">
+    11:     <!-- <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet"> -->
+    12:     <!-- <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Poppins&display=swap" rel="stylesheet"> -->
+  
+(execjs):1
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__2218713300119147129_70095813564400'
+Started GET "/" for ::1 at 2020-08-25 11:14:14 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.3ms)
+  Rendered shared/_foot_home.html.erb (0.7ms)
+  Rendered pages/home.html.erb within layouts/application (16.8ms)
+DEPRECATION WARNING: autoprefixer-rails was deprected. Migration guide:
+https://github.com/ai/autoprefixer-rails/wiki/Deprecated (called from _app_views_layouts_application_html_erb___4276325417324519133_70257722244060 at /Users/ashantirichardson/code/acrichardson/portfolio_1/app/views/layouts/application.html.erb:9)
+Started GET "/" for ::1 at 2020-08-25 11:14:16 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (2.3ms)
+  Rendered shared/_foot_home.html.erb (0.8ms)
+  Rendered pages/home.html.erb within layouts/application (7.8ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 3801ms (Views: 3799.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 5753ms (Views: 5750.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2020-08-25 11:15:20 +0200
+Processing by PagesController#about_me as HTML
+  Rendering pages/about_me.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (4.4ms)
+  Rendered shared/_foot_home.html.erb (0.8ms)
+  Rendered pages/about_me.html.erb within layouts/application (20.9ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 95ms (Views: 82.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for ::1 at 2020-08-25 11:15:27 +0200
+Processing by ContactController#contact as HTML
+  Rendering contact/contact.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered contact/_flash.html.erb (1.1ms)
+  Rendered contact/_contact_form.html.erb (85.3ms)
+  Rendered contact/contact.html.erb within layouts/application (89.5ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 132ms (Views: 119.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-25 11:15:32 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_foot_home.html.erb (0.5ms)
+  Rendered pages/home.html.erb within layouts/application (6.0ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 34ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for ::1 at 2020-08-25 11:15:44 +0200
+Processing by ContactController#contact as HTML
+  Rendering contact/contact.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered contact/_flash.html.erb (1.0ms)
+  Rendered contact/_contact_form.html.erb (8.2ms)
+  Rendered contact/contact.html.erb within layouts/application (13.6ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 53ms (Views: 50.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for ::1 at 2020-08-25 11:56:05 +0200
+Processing by ContactController#contact as HTML
+  Rendering contact/contact.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (97.3ms)
+  Rendered contact/_flash.html.erb (5.8ms)
+  Rendered contact/_contact_form.html.erb (11.3ms)
+  Rendered contact/contact.html.erb within layouts/application (118.4ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 197ms (Views: 191.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for ::1 at 2020-08-25 12:00:49 +0200
+Processing by ContactController#contact as HTML
+  Rendering contact/contact.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (9.9ms)
+  Rendered contact/_flash.html.erb (4.1ms)
+  Rendered contact/_contact_form.html.erb (17.7ms)
+  Rendered contact/contact.html.erb within layouts/application (34.2ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 111ms (Views: 103.8ms | ActiveRecord: 0.0ms)
+
+
